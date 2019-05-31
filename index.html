@@ -1,113 +1,72 @@
-<!DOCTYPE HTML>
-<!--
-	Strata by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Shreyan Chowdhury</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-	<!--{% seo %}-->
-	</head>
-	<body id="top">
+---
+layout: page
+title: My website
+subtitle: This is where I will tell my friends way too much about me
+use-site-title: true
+---
 
-		<!-- Header -->
-			<header id="header">
-				<div class="inner">
-					<a href="#" class="image avatar"><img src="images/avatar.jpg" alt="" /></a>
-					<h1><!--<strong>I am Shreyan Chowdhury</strong><br />-->
-						<!--<a href="mywork.html">My Work</a><br />-->
-						<a href="#">Research</a><br />
-						<a href="#">Past Projects</a><br />
-						<a href="#">Honors & Awards</a><br />
-						<a href="#">Blog</a><br />
-						<a href="#">Music</a><br /></h1>
-				</div>
-			</header>
+<div class="posts-list">
+  {% for post in paginator.posts %}
+  <article class="post-preview">
+    <a href="{{ post.url | prepend: site.baseurl }}">
+	  <h2 class="post-title">{{ post.title }}</h2>
 
-		<!-- Main -->
-			<div id="main">
+	  {% if post.subtitle %}
+	  <h3 class="post-subtitle">
+	    {{ post.subtitle }}
+	  </h3>
+	  {% endif %}
+    </a>
 
-				<!-- One -->
-					<section id="one">
-						<header class="major">
-							<h2><strong>Shreyan Chowdhury</strong></h2>
-						</header>
-						<p>Hello world! <br />
-						I am a PhD student at the <a href="https://www.jku.at/en/institute-of-computational-perception/" target="_blank">Institute of Computational Perception</a>, at <a href="https://www.jku.at/en/" target="_blank">Johannes Kepler University Linz, Austria</a>. Currently I am working on the <a href="http://www.cp.jku.at/research/projects/ConEspressione/" target="_blank">Con Espressione</a> project ("Towards Expressivity-aware Computer Systems in Music") under the guidance of <a href="https://www.jku.at/en/institute-of-computational-perception/about-us/people/gerhard-widmer/" target="_blank">Prof. Gerhard Widmer</a>, where we are using deep learning to understand what makes musical performances expressive and emotionally moving.</p>
-						
-						<p>My research interests lie in audio processing, intelligent music processing, music information retrieval, computer vision, and multi-modal information fusion.</p>
-						<ul class="actions">
-							<li><a href="docs/ShreyanChowdhury_CV.pdf" class="button">View my CV</a></li>
-						</ul>
-					</section>
+    <p class="post-meta">
+      Posted on {{ post.date | date: "%B %-d, %Y" }}
+    </p>
 
-				<!-- Two -->
-					<section id="two">
-						<h2>Recent Work</h2>
-						<ul>
-							<li>August 2017: Presented poster at <a href="http://www.interspeech2017.org/" target="_blank">Interspeech 2017</a> Stockholm, titled <i>Music Tempo Estimation using Sub-band Synchrony</i> <a href="https://www.isca-speech.org/archive/Interspeech_2017/pdfs/1000.PDF" target="_blank">[paper]</a><a href="docs/ShreyanChowdhury_ISPoster.pdf" target="_blank">[poster]</a></li>
-						</ul>
-						
-					</section>
+    <div class="post-entry-container">
+      {% if post.image %}
+      <div class="post-image">
+        <a href="{{ post.url | prepend: site.baseurl }}">
+          <img src="{{ post.image }}">
+        </a>
+      </div>
+      {% endif %}
+      <div class="post-entry">
+        {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }}
+        {% assign excerpt_word_count = post.excerpt | number_of_words %}
+        {% if post.content != post.excerpt or excerpt_word_count > site.excerpt_length %}
+          <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[Read&nbsp;More]</a>
+        {% endif %}
+      </div>
+    </div>
 
-				<!-- Three -->
-					<section id="three">
-						<h2>Get In Touch</h2>
-						<table><tr><td><i class="icon fa-envelope-o"><span class="label">Email</span></i> shreyan0311@gmail.com </td>
-						<td><i class="icon fa-home"><span class="label">Address</span></i> Linz, Austria</td>
-						<td><i class="icon fa-facebook"><span class="label">Facebook</span></i> shreyan.ch</td></tr></table>
-						<div class="row">
-							<div class="4u$ 12u$(small)">
-								<!--
-								<ul class="icons">
-									<li>
-										<h3 class="icon fa-envelope-o"><span class="label">Email</span> shreyan0311@gmail.com</h3>
-									</li>
-									<li>
-										<h3 class="icon fa-home"><span class="label">Address</span> Linz, Austria</h3>
-									</li>
-									<!--<li>
-										<h3 class="icon fa-mobile"><span class="label">Phone</span></h3>
-										000-000-0000
-									</li>-->
-									<!--<li>
-										<h3 class="icon fa-envelope-o"><span class="label">Email</span></h3>
-										<a href="#">@gmail.com</a>
-									</li>-->
-								</ul>
-							</div>
-						</div>
-					</section>
-			</div>
+    {% if post.tags.size > 0 %}
+    <div class="blog-tags">
+      Tags:
+      {% if site.link-tags %}
+      {% for tag in post.tags %}
+      <a href="{{ site.baseurl }}/tags#{{- tag -}}">{{- tag -}}</a>
+      {% endfor %}
+      {% else %}
+        {{ post.tags | join: ", " }}
+      {% endif %}
+    </div>
+    {% endif %}
 
-		<!-- Footer -->
-			<footer id="footer">
-				<div class="inner">
-					<ul class="icons">
-						<li><a href="https://www.linkedin.com/in/shreyan-chowdhury/" target="_blank" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-                        <!--<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>-->
-                        <!--<li><a href="#" class="icon ai-google-scholar-square"><span class="label">Scholar</span></a></li>-->
-                        <li><a href="mailto:shreyan0311@gmail.com" target="_blank" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
-					</ul>
-					<ul class="copyright">
-						<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
-				</div>
-			</footer>
+   </article>
+  {% endfor %}
+</div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
-
-	</body>
-</html>
+{% if paginator.total_pages > 1 %}
+<ul class="pager main-pager">
+  {% if paginator.previous_page %}
+  <li class="previous">
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+  </li>
+  {% endif %}
+  {% if paginator.next_page %}
+  <li class="next">
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+  </li>
+  {% endif %}
+</ul>
+{% endif %}
