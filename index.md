@@ -5,13 +5,6 @@ subtitle: null
 use-site-title: false
 published: true
 ---
----
-layout: page
-title: Shreyan Chowdhury
-subtitle: Music and Technology
-use-site-title: true
----
-
 <div class="posts-list">
   {% for post in paginator.posts %}
   <article class="post-preview">
