@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Shreyan Chowdhury
-subtitle: null
+subtitle: Music and Technology
 use-site-title: false
 published: true
 ---
