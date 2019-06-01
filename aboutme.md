@@ -1,16 +1,9 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: null
+published: true
 ---
+Hello world! I am a PhD student at the Institute of Computational Perception, at Johannes Kepler University Linz, Austria. Currently I am working on the Con Espressione project (“Towards Expressivity-aware Computer Systems in Music”) under the guidance of Prof. Gerhard Widmer, where we are using deep learning to understand what makes musical performances expressive and emotionally moving.
 
-My name is Inigo Montoya. I have the following qualities:
-
-- I rock a great mustache
-- I'm extremely loyal to my family
-
-What else do you need?
-
-### my history
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+My research interests lie in audio processing, intelligent music processing, music information retrieval, computer vision, and multi-modal information fusion.
