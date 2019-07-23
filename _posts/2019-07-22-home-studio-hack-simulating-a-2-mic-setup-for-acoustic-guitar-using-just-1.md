@@ -7,7 +7,7 @@ date: '2019-07-22'
 To get more ambience and stereo width when recording, say an acoustic guitar, the common practice is to record with two microphones placed at different angles or locations and panning them left and right. This is super useful when the guitar is used for accompanying a lead vocalist or instrumentalist, as it creates room in the mix for the central voice. 
 
 Some useful techniques for micing acoustic guitars can be found in this video:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vmQfVv_cn84" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[https://www.youtube.com/embed/vmQfVv_cn84](https://www.youtube.com/embed/vmQfVv_cn84)
 
 But what do you do if you have just one mic? 
 
