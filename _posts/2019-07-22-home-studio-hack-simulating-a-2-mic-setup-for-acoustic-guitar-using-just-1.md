@@ -19,7 +19,6 @@ The other option is to use a [stereo enhancement plugin](https://www.image-line.
 
 What I recently did in one of my recordings, was that I made a duplicate track of a single recording (1-mic), panned one of them left and the other right, and passed both of them through [convolution filters](https://en.wikipedia.org/wiki/Convolution_reverb) with two different impulse responses loaded. 
 
-![Annotation 2019-07-22 232234.png]({{site.baseurl}}/img/Annotation 2019-07-22 232234.png)
 
 If you look closely in the screenshot, one of the impulses is bathroom and the other is medium_room. I deliberately chose short impulses because I did not want to introduce too much reverb at this stage.
 
@@ -27,10 +26,8 @@ I turned the dry level all the way down, because I only wanted the modified soun
 
 FL Studio's Fruity Convolver also gives you option to modify the EQ curves of both the impulse and the output. I cut out the lows and mids in mine to make the sound less "boomy".
 
-![Annotation 2019-07-22 232911.png]({{site.baseurl}}/img/Annotation 2019-07-22 232911.png)
 
 To further enhance the width, I added a very small delay to one of the channels using the delay knob in Fruity Convolver (4 ms). 
 
-![Annotation 2019-07-22 233158.png]({{site.baseurl}}/img/Annotation 2019-07-22 233158.png)
 
 The result sounded quite natural and spacious without having the artificial jarring characteristic of stereo-enhanced signals.
