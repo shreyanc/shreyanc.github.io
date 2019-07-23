@@ -15,7 +15,7 @@ One option, especially if you recording over a click track, is to record the sam
 
 The other option is to use a [stereo enhancement plugin](https://www.image-line.com/support/flstudio_online_manual/html/plugins/Fruity%20Stereo%20Enhancer.htm). What these plugins do is they split the mono audio into two channels - left and right - and introduce a small delay to one of them, thus increasing the stereo width. This is a perfectly viable option, but to me, sometimes, it sounds too dry and artificial, especially when I want the guitar's sound to shine through. 
 
-##The Hack
+## The Hack
 
 What I recently did in one of my recordings, was that I made a duplicate track of a single recording (1-mic), panned one of them left and the other right, and passed both of them through [convolution filters](https://en.wikipedia.org/wiki/Convolution_reverb) with two different impulse responses loaded. 
 
