@@ -10,6 +10,7 @@ I work with deep learning models applied to music audio signals to understand wh
 
 My work is a part of the [Con Espressione](https://www.jku.at/en/institute-of-computational-perception/research/projects/con-espressione/) project, and [Prof. Gerhard Widmer](https://www.jku.at/en/institute-of-computational-perception/about-us/people/gerhard-widmer/) is my supervisor.
 
+<br><br>
 
 ## Publications
 
