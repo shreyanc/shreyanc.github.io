@@ -12,6 +12,11 @@ My work is a part of the [Con Espressione](https://www.jku.at/en/institute-of-co
 
 <br><br>
 
+ <ul class="downloads">
+    <li><a href="#">Projects</a></li>
+    <li><a href="#">About Me <strong>TAR Ball</strong></a></li>
+ </ul>
+
 ## Publications
 
 [Towards Explainable Music Emotion Recognition: The Route via Mid-level Features (2019)](https://arxiv.org/abs/1907.03572) [[demo]](https://shreyanc.github.io/pages/ismir_example.html)
@@ -25,5 +30,3 @@ My work is a part of the [Con Espressione](https://www.jku.at/en/institute-of-co
 [Music Tempo Estimation Using Sub-Band Synchrony (2017)](https://www.isca-speech.org/archive/Interspeech_2017/pdfs/1000.PDF) [[poster]](http://tanayag.com/Pub_files/chowdhury_ISposter.pdf)
 >S Chowdhury, T Guha, RM Hegde
 >INTERSPEECH, 3093-3096
-
-
