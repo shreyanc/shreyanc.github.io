@@ -14,11 +14,11 @@ My work is a part of the [Con Espressione](https://www.jku.at/en/institute-of-co
 
 ## Publications
 
-[Towards Explainable Music Emotion Recognition: The Route via Mid-level Features (2019)](https://arxiv.org/abs/1907.03572)
+[Towards Explainable Music Emotion Recognition: The Route via Mid-level Features (2019)](https://arxiv.org/abs/1907.03572) [[demo]](https://shreyanc.github.io/pages/ismir_example.html)
 >S Chowdhury, A Vall, V Haunschmid, G Widmer
 >arXiv preprint arXiv:1907.03572
 
-[Two-level Explanations in Music Emotion Recognition (2019)](https://arxiv.org/abs/1905.11760)
+[Two-level Explanations in Music Emotion Recognition (2019)](https://arxiv.org/abs/1905.11760) [[demo]](https://shreyanc.github.io/pages/ICML_example.html)
 >V Haunschmid, S Chowdhury, G Widmer
 >arXiv preprint arXiv:1905.11760
 
