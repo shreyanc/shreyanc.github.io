@@ -6,7 +6,7 @@ published: true
 
 I am a PhD student at the [Institute of Computational Perception](https://www.jku.at/en/institute-of-computational-perception/) in Johannes Kepler University Linz, Austria.
 
-I work with deep learning models applied to music audio signals to understand what makes musical performances "expressive" and how we can make systems that respond appropriately to the human subjective and affective perception of music.
+I work with deep learning models applied to music audio signals to understand what makes musical performances expressive and how we can make systems that respond appropriately to the human subjective and affective perception of music.
 
 My work is a part of the [Con Espressione](https://www.jku.at/en/institute-of-computational-perception/research/projects/con-espressione/) project, and [Prof. Gerhard Widmer](https://www.jku.at/en/institute-of-computational-perception/about-us/people/gerhard-widmer/) is my supervisor.
 
