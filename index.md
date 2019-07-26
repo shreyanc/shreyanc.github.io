@@ -17,7 +17,7 @@ My work is a part of the [Con Espressione](https://www.jku.at/en/institute-of-co
     <li><a href="#">About Me <strong>TAR Ball</strong></a></li>
  </ul>
  
- <br><br>
+<br><br>
 
 ## Publications
 
