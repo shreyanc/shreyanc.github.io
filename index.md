@@ -6,7 +6,7 @@ published: true
 
 I am a PhD student at the Institute of Computational Perception in Johannes Kepler University Linz, Austria.
 
-## Research
+## Publications
 
 [Towards Explainable Music Emotion Recognition: The Route via Mid-level Features (2019)](https://arxiv.org/abs/1907.03572)
 
