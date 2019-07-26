@@ -22,7 +22,7 @@ My work is a part of the [Con Espressione](https://www.jku.at/en/institute-of-co
 >V Haunschmid, S Chowdhury, G Widmer
 >arXiv preprint arXiv:1905.11760
 
-[Music Tempo Estimation Using Sub-Band Synchrony (2017)](https://www.isca-speech.org/archive/Interspeech_2017/pdfs/1000.PDF)
+[Music Tempo Estimation Using Sub-Band Synchrony (2017)](https://www.isca-speech.org/archive/Interspeech_2017/pdfs/1000.PDF) [[poster]](http://tanayag.com/Pub_files/chowdhury_ISposter.pdf)
 >S Chowdhury, T Guha, RM Hegde
 >INTERSPEECH, 3093-3096
 
