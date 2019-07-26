@@ -13,8 +13,8 @@ My work is a part of the [Con Espressione](https://www.jku.at/en/institute-of-co
 <br><br>
 
  <ul class="downloads">
-    <li><a href="#">Projects</a></li>
-    <li><a href="#">About Me <strong>TAR Ball</strong></a></li>
+  <li><a href="#"><strong>Projects</strong></a></li>
+  <li><a href="#"><strong>About Me</strong></a></li>
  </ul>
  
 <br><br>
