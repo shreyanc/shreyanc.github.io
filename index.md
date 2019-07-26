@@ -4,7 +4,7 @@ published: true
 ---
 ## Hi!
 
-I am a PhD student at the Institute of Computational Perception in Johannes Kepler University Linz, Austria.
+I am a PhD student at the [Institute of Computational Perception](https://www.jku.at/en/institute-of-computational-perception/) in Johannes Kepler University Linz, Austria.
 
 ## Publications
 
