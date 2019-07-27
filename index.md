@@ -12,12 +12,12 @@ My work is a part of the [Con Espressione](https://www.jku.at/en/institute-of-co
 
 <br><br>
 
- <ul class="downloads">
+<!-- <ul class="downloads">
   <li><a href="#"><strong>Projects</strong></a></li>
   <li><a href="#"><strong>About Me</strong></a></li>
  </ul>
  
-<br><br>
+<br><br>-->
 
 ## Publications
 
