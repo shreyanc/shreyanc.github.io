@@ -22,6 +22,7 @@ Currently I am working with the [Con Espressione](https://www.jku.at/en/institut
 
 **(Upcoming) October 16, 2019**: Invited guest talk at the Acoustics Research Institute, ÖAW (Austrian Academy of Sciences).
 
+<br>
 
 ## Publications
 
