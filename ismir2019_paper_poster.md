@@ -1,4 +1,7 @@
-
+---
+layout: post
+published: true
+---
 <br>
 <br>
 <br>
