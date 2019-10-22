@@ -2,11 +2,6 @@
 layout: minimal
 published: true
 ---
-<br>
-<br>
-<br>
-
-
 ## Towards Explainable Music Emotion Recognition: The Route via Mid-level Features
 
 <ul class="downloads">
