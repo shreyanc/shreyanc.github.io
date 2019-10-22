@@ -1,3 +1,3 @@
-[Paper](https://arxiv.org/abs/1907.03572)
-[Poster](#)
-[Demo](https://shreyanc.github.io/ismir_example.html)
+## A New Post
+
+Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
