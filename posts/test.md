@@ -1,5 +1,5 @@
 ---
-layout: post1
+layout: post
 published: true
 author: Shreyan
 date: 26 Oct 2019
