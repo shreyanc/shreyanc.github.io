@@ -1,10 +1,10 @@
 ---
-layout: post
+layout: post1
 published: true
 author: Shreyan
 date: 26 Oct 2019
 ---
-
+## Towards Explainable Music Emotion Recognition: The Route via Mid-level Features - 3
 
 <ul class="downloads">
   <li><a href="https://arxiv.org/abs/1907.03572"><strong>Paper</strong></a></li>
