@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: minimal
 published: true
 author: Shreyan
 date: 26 Oct 2019
