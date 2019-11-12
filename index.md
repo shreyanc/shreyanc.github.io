@@ -20,7 +20,7 @@ Currently I am working with the [Con Espressione](https://www.jku.at/en/institut
 <br><br>-->
 ## News
 
-**November 5, 2019**: Presented my work on explainable emotion recognition in ISMIR 2019, Delft. | [Teaser Talk](https://collegerama.tudelft.nl/Mediasite/Showcase/ismir2019/Presentation/b68bfc2ef9214728ac2d5c3d4d3119061d) | [Paper/Poster/Demo](https://shreyanc.github.io/ismir_example.html)
+**November 5, 2019**: Presented my work on explainable emotion recognition in ISMIR 2019, Delft. [Teaser Talk](https://collegerama.tudelft.nl/Mediasite/Showcase/ismir2019/Presentation/b68bfc2ef9214728ac2d5c3d4d3119061d) [Paper/Poster/Demo](https://shreyanc.github.io/ismir_example.html)
 
 **October 27, 2019**: Presented our state-of-the-art results on [emotion and theme recognition task at MediaEval 2019](https://multimediaeval.github.io/2019-Emotion-and-Theme-Recognition-in-Music-Task/) in Sophia Antipolis, France.s
 
