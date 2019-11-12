@@ -20,11 +20,18 @@ Currently I am working with the [Con Espressione](https://www.jku.at/en/institut
 <br><br>-->
 ## News
 
-**October 16, 2019**: Guest talk at the Acoustics Research Institute, ÖAW (Austrian Academy of Sciences).
+**November 5, 2019**: Presented my work on explainable emotion recognition in ISMIR 2019, Delft. | [Teaser Talk](https://collegerama.tudelft.nl/Mediasite/Showcase/ismir2019/Presentation/b68bfc2ef9214728ac2d5c3d4d3119061d) | [Paper/Poster/Demo](https://shreyanc.github.io/ismir_example.html)
+
+
+**October 16, 2019**: Gave a guest talk at the Acoustics Research Institute, ÖAW (Austrian Academy of Sciences) with Verena Haunschmid on Explainable Models and their Application in Music Emotion Recognition.
 
 <br>
 
 ## Publications
+
+[Emotion and Theme Recognition in Music with Frequency-Aware RF-Regularized CNNs (2019)](https://www.jku.at/fileadmin/gruppen/173/Research/Emotion_in_Music_with_Frequency-Aware_RF-Regularized_CNNs_Koutini.pdf)
+> Khaled Koutini, Shreyan Chowdhury, Verena Haunschmid, Hamid Eghbal-zadeh, Gerhard Widmer
+> MediaEval Multimedia Benchmark 2019
 
 [Towards Explainable Music Emotion Recognition: The Route via Mid-level Features (2019)](https://arxiv.org/abs/1907.03572) [[demo]](https://shreyanc.github.io/ismir_example.html)
 >S Chowdhury, A Vall, V Haunschmid, G Widmer
