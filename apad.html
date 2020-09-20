@@ -5,12 +5,13 @@ published: true
 ---
 <h1>A Paper a Day</h1>
 
-
-  {% for post in site.posts %}
+{% for post in site.posts %}
+  
+<h2 style="margin:0;padding:0"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+{{ post.date | date: "%b %d %Y" }}
+{{ post.authors }}
+<br>
+{{ post.summary }}
     
-      <h2 style="margin:0;padding:0"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      {{ post.date | date: "%b %d %Y" }}
-      {{ post.excerpt }}
-    
-  {% endfor %}
+{% endfor %}
 
