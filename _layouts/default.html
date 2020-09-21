@@ -51,7 +51,7 @@
         <br>
         asdaa
         {%- assign social = site.social_links -%}
-		{%- if social.twitter -%}<a rel="me" href="https://twitter.com/{{ social.twitter | cgi_escape | escape }}" title="{{ social.twitter | escape }}" href="{{ 'https://shreyanc.github.io/assets/twitter.svg' | relative_url }}">{%- endif -%}
+		{%- if social.twitter -%}<a rel="me" href="https://twitter.com/{{ social.twitter | cgi_escape | escape }}" title="{{ social.twitter | escape }}"><img src="{{ 'https://shreyanc.github.io/assets/twitter.svg' | relative_url }}">{%- endif -%}
 
 
         {% endif %}
