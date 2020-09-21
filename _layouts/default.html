@@ -51,7 +51,7 @@
         <br>
         {%- assign social = site.data.social -%}
         {% for s in social %}
-        {%- if social.title=='twitter' -%}<li><a rel="me" href="https://twitter.com/{{ social.twitter | cgi_escape | escape }}" title="{{ social.twitter | escape }}"><svg class="svg-icon grey"><use xlink:href="{{ '/assets/minima-social-icons.svg#twitter' | relative_url }}"></use></svg></a></li>{%- endif -%}
+        <li><a rel="me" href="https://twitter.com/{{ s.href | cgi_escape | escape }}" title="{{ s.title | escape }}"><svg class="svg-icon grey"><use xlink:href="{{ '/assets/minima-social-icons.svg#twitter' | relative_url }}"></use></svg></a></li>{%- endif -%}
         {% endfor %}
 
 
