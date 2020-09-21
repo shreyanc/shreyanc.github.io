@@ -51,7 +51,7 @@
         <br>
         a
         {%- assign social = site.social_links -%}
-		{%- if social.twitter -%}<a rel="me" href="https://twitter.com/{{ social.twitter | cgi_escape | escape }}" title="{{ social.twitter | escape }}"><img src="{{ 'https://shreyanc.github.io/assets/scholar.png' | relative_url }}">{%- endif -%}
+		{%- if social.twitter -%}<li><a rel="me" href="https://twitter.com/{{ social.twitter | cgi_escape | escape }}" title="{{ social.twitter | escape }}"><svg class="svg-icon grey"><use xlink:href="{{ '/assets/img/twitter.svg' | relative_url }}"></use></svg></a></li>{%- endif -%}
 
 
         {% endif %}
