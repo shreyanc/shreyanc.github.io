@@ -29,6 +29,26 @@
         <img src="{{ include.logo }}" alt="Logo" />
 
         <p>{{ include.logo_desc }}</p>
+        {% if site.github.is_project_page %}
+        <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
+        {% endif %}
+
+        {% if site.github.is_user_page %}
+        <!-- <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p> -->
+        <br>
+       <a rel="me" href="https://twitter.com/shreyan_ch"><img style="margin: 0 5px 0 0" width="25" height="25" src="https://shreyanc.github.io/assets/img/twitter.svg">
+        <a rel="me" href="https://scholar.google.com.au/citations?user=WGjp-vYAAAAJ&hl=en"><img style="margin: 0 5px" width="25" height="25" src="https://shreyanc.github.io/assets/img/scholar.png">
+        <a rel="me" href="https://www.linkedin.com/in/shreyan-chowdhury"><img style="margin: 0 5px" width="25" height="25" src="https://shreyanc.github.io/assets/img/linkedin.png">
+        <a rel="me" href="https://www.soundcloud.com/shreyan-chowdhury"><img style="margin: 0 5px" width="25" height="25" src="https://shreyanc.github.io/assets/img/soundcloud.svg">
+        <br><br>
+        <hr>
+        <br>
+          
+        <p class="view"><a href="https://shreyanc.github.io/apad.html">A Paper a Day Series</a></p>
+       
+        
+
+        {% endif %}
 
         {% if site.show_downloads %}
         <ul class="downloads">
