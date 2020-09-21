@@ -26,7 +26,7 @@
       <header>
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
         
-        {{ include.logo }}
+        <img src="{{ include.logo }}" alt="Logo" />
 
         <p>{{ include.logo_desc }}</p>
 
@@ -63,4 +63,3 @@
     {% endif %}
   </body>
 </html>
-
