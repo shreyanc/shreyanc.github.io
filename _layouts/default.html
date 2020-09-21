@@ -24,8 +24,15 @@
   <body>
     <div class="wrapper">
       <header>
-	      <p>{{ page.title }}</p>
-	      <img src="{{page.logo | relative_url}}" alt="Logo" />
+	      {% unless page.title %}
+	      	<p>{{ site.title }}</p>
+	      {% endunless %}
+	      
+	      {% if page.logo %}
+	      	<img src="{{page.logo | relative_url}}" alt="Logo" />
+	      {% else %}
+	      	<img src="{{site.logo | relative_url}}" alt="Logo" />
+	      {% endif %}
       </header>
       <section>
 
