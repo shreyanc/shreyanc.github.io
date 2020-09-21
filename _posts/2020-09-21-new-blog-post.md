@@ -1,6 +1,10 @@
 ---
 layout: post
 author: jill
+published: true
+authors: 'Hinton, Schmidhuber'
+summary: This is a test post.
+title: All You Need Are These Guys
 ---
 A banana is an edible fruit – botanically a berry – produced by several kinds
 of large herbaceous flowering plants in the genus Musa.
