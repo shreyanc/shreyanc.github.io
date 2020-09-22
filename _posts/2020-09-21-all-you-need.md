@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Shreyan Chowdhury
-published: true
+published: false
 authors: 'Hinton, Schmidhuber'
 summary: This is a test post.
 title: All You Need Are These Guys
