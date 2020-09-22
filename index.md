@@ -1,6 +1,7 @@
 ---
 layout: default
 published: true
+is_home_page: true
 ---
 ## Hi!
 

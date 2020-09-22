@@ -1,0 +1,52 @@
+I"©<h2 id="hi">Hi!</h2>
+
+<p>I am a PhD student at the <a href="https://www.jku.at/en/institute-of-computational-perception/">Institute of Computational Perception</a> in Johannes Kepler University Linz, Austria.</p>
+
+<p>I work with deep learning models applied to music audio signals to understand what makes musical performances expressive and how we can make systems that respond appropriately to the subjective and affective qualities of music, perception of which is a uniquely human characteristic.</p>
+
+<p>Currently I am working with the <a href="https://www.jku.at/en/institute-of-computational-perception/research/projects/con-espressione/">Con Espressione</a> project, and <a href="https://www.jku.at/en/institute-of-computational-perception/about-us/people/gerhard-widmer/">Prof. Gerhard Widmer</a> is my supervisor.</p>
+
+<p><br /></p>
+
+<!-- <ul class="downloads">
+  <li><a href="#"><strong>Projects</strong></a></li>
+  <li><a href="#"><strong>About Me</strong></a></li>
+ </ul>
+ 
+<br><br>-->
+<h2 id="news">News</h2>
+
+<p><strong>November 5, 2019</strong>: Presented my work on explainable emotion recognition in ISMIR 2019, Delft. <a href="https://collegerama.tudelft.nl/Mediasite/Showcase/ismir2019/Presentation/b68bfc2ef9214728ac2d5c3d4d3119061d">Teaser Talk</a> <a href="https://shreyanc.github.io/ismir2019_paper_poster.html">Paper/Poster/Demo</a></p>
+
+<p><strong>October 27, 2019</strong>: Presented our state-of-the-art results on <a href="https://multimediaeval.github.io/2019-Emotion-and-Theme-Recognition-in-Music-Task/">emotion and theme recognition task at MediaEval 2019</a> in Sophia Antipolis, France.s</p>
+
+<p><strong>October 16, 2019</strong>: Gave a guest talk at the Acoustics Research Institute, Ã–AW (Austrian Academy of Sciences) with Verena Haunschmid on Explainable Models and their Application in Music Emotion Recognition.</p>
+
+<p><br /></p>
+
+<h2 id="publications">Publications</h2>
+
+<p><a href="https://www.jku.at/fileadmin/gruppen/173/Research/Emotion_in_Music_with_Frequency-Aware_RF-Regularized_CNNs_Koutini.pdf">Emotion and Theme Recognition in Music with Frequency-Aware RF-Regularized CNNs (2019)</a></p>
+<blockquote>
+  <p>Khaled Koutini, Shreyan Chowdhury, Verena Haunschmid, Hamid Eghbal-zadeh, Gerhard Widmer<br />
+MediaEval Multimedia Benchmark 2019</p>
+</blockquote>
+
+<p><a href="https://arxiv.org/abs/1907.03572">Towards Explainable Music Emotion Recognition: The Route via Mid-level Features (2019)</a> <a href="https://shreyanc.github.io/ismir_example.html">[demo]</a></p>
+<blockquote>
+  <p>S Chowdhury, A Vall, V Haunschmid, G Widmer<br />
+arXiv preprint arXiv:1907.03572</p>
+</blockquote>
+
+<p><a href="https://arxiv.org/abs/1905.11760">Two-level Explanations in Music Emotion Recognition (2019)</a> <a href="https://shreyanc.github.io/ICML_example.html">[demo]</a></p>
+<blockquote>
+  <p>V Haunschmid, S Chowdhury, G Widmer<br />
+arXiv preprint arXiv:1905.11760</p>
+</blockquote>
+
+<p><a href="https://www.isca-speech.org/archive/Interspeech_2017/pdfs/1000.PDF">Music Tempo Estimation Using Sub-Band Synchrony (2017)</a> <a href="http://tanayag.com/Pub_files/chowdhury_ISposter.pdf">[poster]</a></p>
+<blockquote>
+  <p>S Chowdhury, T Guha, RM Hegde<br />
+INTERSPEECH, 3093-3096</p>
+</blockquote>
+:ET

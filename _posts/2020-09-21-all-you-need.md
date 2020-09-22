@@ -7,6 +7,8 @@ summary: This is a test post.
 title: All You Need Are These Guys
 logo: /assets/img/apad_bello.png
 logo_desc: Figure Bello
+is_post: true
+parent: /apad.html
 ---
 A banana is an edible fruit – botanically a berry – produced by several kinds
 of large herbaceous flowering plants in the genus Musa.
