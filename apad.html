@@ -1,13 +1,29 @@
 ---
 layout: default
-title: Blog
+title: 'A Paper a Day <br> <small>(Paper Snapshots)</small>'
 published: true
+logo: /assets/img/apad_main_logo.png
+logo_desc: <a href='http://phdcomics.com/comics.php?f=964'>Source</a>
 ---
-<h1>A Paper a Day</h1>
+<!-- <h1>A Paper a Day</h1> -->
+{%   assign today = site.time | date: '%s'      %}
+{%   assign start = '20-09-2020 04:00:00' | date: '%s'  %}
+{%   assign secondsSince = today | minus: start     %}
+{%   assign hoursSince = secondsSince | divided_by: 60 | divided_by: 60     %}
+{%   assign daysSince = hoursSince | divided_by: 24  %}
+
+{% assign my_integer = daysSince %}
+{% assign my_float = my_integer | times: 1.0 %}
+{% assign regularity = site.posts.size | divided_by: my_float %}
+
+<label for="regularity">Regularity: {{ regularity | times: 100 | round: 2}}%</label>
+<meter id="regularity" value="{{ regularity }}"></meter>
+<br><hr>
+
 
 {% for post in site.posts %}
 <small>{{ post.date | date: "%-d %B %Y" }}</small>
-<h2 style="margin:5px 0 5px 0;padding:0"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+<h2 style="margin:5px 0 5px 0;padding:0"><a href="{{ post.url }}">{{ post.post_title }}</a></h2>
 <p style="margin:4 0 0 0;padding:0"><i>{{ post.authors }}</i></p>
 
 

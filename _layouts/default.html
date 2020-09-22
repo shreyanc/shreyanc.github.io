@@ -27,11 +27,10 @@
   <body>
     <div class="wrapper">
       <header>
-	      {% if page.is_post %}
-          <p class="view"><a href={{ page.parent }}>< Back  </a>|  <a href="/">Home</a></p>
-          <hr>
-	      {% else %}
-	      <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+	      {% if page.is_home_page %}
+          <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+        {% else %}
+          <h1>{{ page.title }}</h1>
 	      {% endif %}
 	      
 	      {% if page.logo %}
@@ -43,19 +42,28 @@
         
         <br>
         <br>
-        {% unless page.is_post %}
+        {% if page.is_home_page %}
         <a rel="me" href="https://twitter.com/shreyan_ch"><img style="margin: 0 5px 0 0" width="25" height="25" src="/assets/img/twitter.svg">
         <a rel="me" href="https://scholar.google.com.au/citations?user=WGjp-vYAAAAJ&hl=en"><img style="margin: 0 5px" width="25" height="25" src="/assets/img/scholar.png">
         <a rel="me" href="https://www.linkedin.com/in/shreyan-chowdhury"><img style="margin: 0 5px" width="25" height="25" src="/assets/img/linkedin.png">
         <a rel="me" href="https://www.soundcloud.com/shreyan-chowdhury"><img style="margin: 0 5px" width="25" height="25" src="/assets/img/soundcloud.svg">
         <br><br>
         <hr>
-        <br>
         <p class="view"><a href="/apad.html">A Paper a Day</a></p>
         <p class="view"><a href="/projects.html">Projects</a></p>
         <p class="view"><a href="/cv.html">My CV</a></p>
-        {% endunless %}
+        
+        {% else %}
+        <hr>
+        <p class="view"><a href="/">Home</a></p>
+          {% if page.parent %}
+            <p class="view"><a href={{ page.parent }}>Back</a></p>
+          {% endif %}
 
+        {% endif %}
+
+
+        
       </header>
       <section>
 
