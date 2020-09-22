@@ -24,11 +24,12 @@
   <body>
     <div class="wrapper">
       <header>
-	      {% if page.title %}
+	      <!--{% if page.title %}
 	      	<p class="view"><a href="https://shreyanc.github.io/apad.html">< Back</a></p>
-	      {% else %}
-	      	<p>{{ site.title }}</p>
-	      {% endif %}
+	      {% else %}-->
+	      	<p>{{ site.title }}</p><br>
+	      	<p>{{ page.title }}</p>
+	      <!--{% endif %}-->
 	      
 	      {% if page.logo %}
 	      	<img src="{{page.logo | relative_url}}" alt="Logo" />
