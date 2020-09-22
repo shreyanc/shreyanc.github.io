@@ -24,9 +24,11 @@
   <body>
     <div class="wrapper">
       <header>
-	      {% unless page.title %}
+	      {% if page.title %}
+	      	<p class="view"><a href="https://shreyanc.github.io/apad.html">< Back</a></p>
+	      {% else %}
 	      	<p>{{ site.title }}</p>
-	      {% endunless %}
+	      {% endif %}
 	      
 	      {% if page.logo %}
 	      	<img src="{{page.logo | relative_url}}" alt="Logo" />
