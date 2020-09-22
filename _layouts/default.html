@@ -27,6 +27,7 @@
 	      <!--{% if page.title %}
 	      	<p class="view"><a href="https://shreyanc.github.io/apad.html">< Back</a></p>
 	      {% else %}-->
+	      <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
 	      	<p>{{ site.title }}</p><br>
 	      	<p>{{ page.title }}</p>
 	      <!--{% endif %}-->
