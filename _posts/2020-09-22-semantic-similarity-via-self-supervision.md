@@ -13,7 +13,7 @@ parent: /apad.html
 title: ''
 post_title: Learning Semantic Similarity in Music via Self-Supervision
 logo_desc: >-
-  The two architectures - a) A-DSSM (Adversarial Deep Structured Semantic Model)
+  The two architectures: a) A-DSSM (Adversarial Deep Structured Semantic Model)
   and b) A-AdjD
 ---
 ## Upshot
@@ -27,4 +27,4 @@ logo_desc: >-
 - Fitting the latent space to a prior distribution prevents the model from satisfying the similarity contraint without actually learning too many meaningful features.
 
 ## Details
--
+- Two architectures are demonstrated: A-DSSM and A-AdjD.
