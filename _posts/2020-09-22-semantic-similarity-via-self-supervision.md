@@ -20,7 +20,7 @@ post_title: Learning Semantic Similarity in Music via Self-Supervision
 
 ## Wisdom
 - The **ratio of easy to hard examples** is often biased towards the easy end. This produces poor performance since many examples can satisfy the constraint with a very small loss that provides no meaningful update during backpropagation. The **adversarial component naturally helps to mitigate this problem by enforcing the prior distribution**.
-- Using small networks for adjacency discrimination (for A-AdjD model) forces the embedding portion to learn good features.
+- Using small networks for adjacency discrimination (for A-AdjD model) forces the embedding portion to learn good features to differentiate between related and non-related inputs.
 - 
 
 ## Details
