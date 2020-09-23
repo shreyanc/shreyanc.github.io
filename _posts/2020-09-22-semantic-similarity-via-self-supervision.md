@@ -12,6 +12,9 @@ is_post: true
 parent: /apad.html
 title: ''
 post_title: Learning Semantic Similarity in Music via Self-Supervision
+logo_desc: >-
+  The two architectures - a) A-DSSM (Adversarial Deep Structured Semantic Model)
+  and b) A-AdjD
 ---
 ## Upshot
 - The authors propose two related methods for learning symbolic music embeddings such that semantically similar inputs lie closer together in the latent space than dissimilar ones.
