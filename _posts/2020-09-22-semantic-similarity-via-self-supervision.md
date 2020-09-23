@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 author: Shreyan Chowdhury
 authors: 'Mason Bretan, Larry Heck'
