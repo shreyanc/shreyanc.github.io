@@ -36,5 +36,9 @@ $$
 $$
 P(\tilde{R}, \tilde{Q}) = \frac{\exp (sim(\tilde{Q}, \tilde{R}))}{\sum_{\tilde{d}\in D}\exp (sim(\tilde{Q}, \tilde{d}))}
 $$
+- Loss function:
+$$
+\mathcal{L} = - \log \prod_(Q,R) P(\tilde{R}, \tilde{Q})
+$$
 - **A-AdjD was found to be more stable**.
 - The A-AdjD was trained in two stages: 1) train the classifier to discriminate between related and non-related inputs, and 2) train the embeddings to fit a prior distribution using a GAN scheme.
