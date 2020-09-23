@@ -15,7 +15,7 @@ logo_desc: '<a href=''http://phdcomics.com/comics.php?f=964''>Source</a>'
 {% assign my_integer = daysSince %}
 {% assign my_float = my_integer | times: 1.0 %}
 {% assign regularity = site.posts.size | divided_by: my_float %}
-{{ daysSince }}
+
 <label for="regularity">Regularity: {{ regularity | times: 100 | round: 2}}%</label>
 <meter id="regularity" value="{{ regularity }}"></meter>
 <br><hr>
