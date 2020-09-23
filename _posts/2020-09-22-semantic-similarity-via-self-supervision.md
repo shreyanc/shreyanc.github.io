@@ -16,9 +16,10 @@ post_title: Learning Semantic Similarity in Music via Self-Supervision
 ## Upshot
 - The authors propose two related methods for learning symbolic music embeddings such that semantically similar inputs lie closer together in the latent space than dissimilar ones.
 - This is achieved by defining **adjacent sections of a musical input to be semantically similar** and constraining the embeddings to come from a **Gaussian prior distribution**.
-- The prior distribution is enforced by connecting discriminator networks to the last layer of the feature extractors. 
+- The prior distribution is enforced by connecting adversarial discriminator networks to the last layer of the feature extractors. 
 
 ## Wisdom
+- Using small networks for adjacency discrimination (for A-AdjD model) forces the embedding portion to learn good features.
 - 
 
 ## Details
