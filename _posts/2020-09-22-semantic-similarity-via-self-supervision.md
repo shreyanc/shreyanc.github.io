@@ -28,3 +28,9 @@ logo_desc: >-
 
 ## Details
 - Two architectures are demonstrated: A-DSSM and A-AdjD.
+- A-DSSM uses Euclidean similarity:
+$$
+sim(\tilde{X}, \tilde{Y}) = \frac{1}{1+D(\tilde{X}, \tilde{Y})}
+$$
+- **A-AdjD was found to be more stable**.
+- The A-AdjD was trained in two stages: 1) train the classifier to discriminate between related and non-related inputs, and 2) train the embeddings to fit a prior distribution using a GAN scheme.
