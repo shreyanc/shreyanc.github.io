@@ -1,9 +1,9 @@
 ---
 layout: default
-title: 'A Paper a Day <br> <small>(Paper Snapshots)</small>'
+title: A Paper a Day <br> <small>(Paper Snapshots)</small>
 published: true
 logo: /assets/img/apad_main_logo.png
-logo_desc: <a href='http://phdcomics.com/comics.php?f=964'>Source</a>
+logo_desc: '<a href=''http://phdcomics.com/comics.php?f=964''>Source</a>'
 ---
 <!-- <h1>A Paper a Day</h1> -->
 {%   assign today = site.time | date: '%s'      %}
@@ -15,7 +15,7 @@ logo_desc: <a href='http://phdcomics.com/comics.php?f=964'>Source</a>
 {% assign my_integer = daysSince %}
 {% assign my_float = my_integer | times: 1.0 %}
 {% assign regularity = site.posts.size | divided_by: my_float %}
-
+{{ today }}
 <label for="regularity">Regularity: {{ regularity | times: 100 | round: 2}}%</label>
 <meter id="regularity" value="{{ regularity }}"></meter>
 <br><hr>
