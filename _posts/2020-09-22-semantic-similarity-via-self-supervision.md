@@ -28,15 +28,15 @@ logo_desc: >-
 
 ## Details
 - Two architectures are demonstrated: A-DSSM and A-AdjD.
-- A-DSSM uses Euclidean similarity:
+- A-DSSM uses Euclidean similarity:<br>
 $$
 sim(\tilde{X}, \tilde{Y}) = \frac{1}{1+D(\tilde{X}, \tilde{Y})}
 $$
-- Softmax of similarity is taken:
+- Softmax of similarity is taken:<br>
 $$
 P(\tilde{R}, \tilde{Q}) = \frac{\exp (sim(\tilde{Q}, \tilde{R}))}{\sum_{\tilde{d}\in D}\exp (sim(\tilde{Q}, \tilde{d}))}
 $$
-- Loss function:
+- Loss function:<br>
 $$
 \mathcal{L} = - \log \prod_(Q,R) P(\tilde{R}, \tilde{Q})
 $$
