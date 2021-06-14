@@ -31,11 +31,11 @@ Currently I am working with the [Con Espressione](https://www.jku.at/en/institut
 
 ## Publications
 [Tracing Back Music Emotion Predictions to Sound Sources and Intuitive Perceptual Qualities (2021)](#)
-> Shreyan Chowdhury, Verena Praher, Gerhard Widmer<br>
+> **Shreyan Chowdhury**, Verena Praher, Gerhard Widmer<br>
 > Sound and Music Computing Conference 2021
 
 [Towards Explainable Music Emotion Recognition: The Route via Mid-level Features (2021)](https://arxiv.org/abs/1907.03572)
-> Shreyan Chowdhury, Andreu Vall, Verena Haunschmid, Gerhard Widmer<br>
+> **Shreyan Chowdhury**, Andreu Vall, Verena Haunschmid, Gerhard Widmer<br>
 > ICASSP 2021, Toronto, Canada
 
 [On the Characterization of Expressive Performance in Classical Music: First Results of the Con Espressione Game (2020)](https://arxiv.org/abs/2008.02194)
@@ -51,9 +51,9 @@ Currently I am working with the [Con Espressione](https://www.jku.at/en/institut
 >ISMIR 2019, Delft, Netherlands
 
 [Two-level Explanations in Music Emotion Recognition (2019)](https://arxiv.org/abs/1905.11760) [[demo]](https://shreyanc.github.io/ICML_example.html)
->Verena Haunschmid, Shreyan Chowdhury, Gerhard Widmer<br>
+>Verena Haunschmid, **Shreyan Chowdhury**, Gerhard Widmer<br>
 >ICML 2019, Machine Learning for Music Discovery Workshop
 
 [Music Tempo Estimation Using Sub-Band Synchrony (2017)](https://www.isca-speech.org/archive/Interspeech_2017/pdfs/1000.PDF) [[poster]](http://tanayag.com/Pub_files/chowdhury_ISposter.pdf)
->Shreyan Chowdhury, Tanaya Guha, Rajesh M Hegde<br>
+>**Shreyan Chowdhury**, Tanaya Guha, Rajesh M Hegde<br>
 >INTERSPEECH, 3093-3096
