@@ -20,6 +20,8 @@ Currently I am working with the [Con Espressione](https://www.jku.at/en/institut
  
 <br><br>-->
 ## News
+**June 30, 2021**: Presented our work on two-level explanations with sound sources and mid-level features at SMC 2021 [Paper](https://arxiv.org/abs/2106.07787)
+
 **June 10, 2021**: Presented our work on domain adaptation of perceptual features in music at ICASSP 2021 [Paper](https://arxiv.org/abs/2102.13479)
 
 **December 12, 2020**: Patent granted for our work on audio analytics that I worked on while at Honeywell (project duration: 2017-18). [Link](https://patents.google.com/patent/US10475468B1)
@@ -33,7 +35,11 @@ Currently I am working with the [Con Espressione](https://www.jku.at/en/institut
 <br>
 
 ## Publications
-[Tracing Back Music Emotion Predictions to Sound Sources and Intuitive Perceptual Qualities (2021)](#)
+[On Perceived Emotion in Expressive Piano Performance: Further Experimental Evidence for the Relevance of Mid-level Features (2021)](https://arxiv.org/abs/2107.13231)
+> **Shreyan Chowdhury**, Gerhard Widmer<br>
+> ISMIR 2021, Virtual
+
+[Tracing Back Music Emotion Predictions to Sound Sources and Intuitive Perceptual Qualities (2021)](https://arxiv.org/abs/2106.07787)
 > **Shreyan Chowdhury**, Verena Praher, Gerhard Widmer<br>
 > Sound and Music Computing Conference 2021
 
