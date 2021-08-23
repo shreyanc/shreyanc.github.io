@@ -45,6 +45,8 @@ Currently I am working with the [Con Espressione](https://www.jku.at/en/institut
 <br>
 
 ## Publications
+### 2021
+----
 [On Perceived Emotion in Expressive Piano Performance: Further Experimental Evidence for the Relevance of Mid-level Features (2021)](https://arxiv.org/abs/2107.13231)
 > **Shreyan Chowdhury**, Gerhard Widmer<br>
 > ISMIR 2021, Virtual
@@ -57,9 +59,16 @@ Currently I am working with the [Con Espressione](https://www.jku.at/en/institut
 > **Shreyan Chowdhury**, Gerhard Widmer<br>
 > ICASSP 2021, Toronto, Canada
 
+<br>
+### 2020
+----
 [On the Characterization of Expressive Performance in Classical Music: First Results of the Con Espressione Game (2020)](https://arxiv.org/abs/2008.02194)
 > Carlos Cancino-Chacón, Silvan Peter, **Shreyan Chowdhury**, Anna Aljanaki, Gerhard Widmer<br>
 > ISMIR 2019, Montreal, Canada
+
+<br>
+### 2019
+----
 
 [Emotion and Theme Recognition in Music with Frequency-Aware RF-Regularized CNNs (2019)](https://www.jku.at/fileadmin/gruppen/173/Research/Emotion_in_Music_with_Frequency-Aware_RF-Regularized_CNNs_Koutini.pdf)
 > Khaled Koutini, **Shreyan Chowdhury**, Verena Haunschmid, Hamid Eghbal-zadeh, Gerhard Widmer<br>
