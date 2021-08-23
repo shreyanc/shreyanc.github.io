@@ -9,7 +9,7 @@ I am a PhD student at the [Institute of Computational Perception](https://www.jk
 
 I work with deep learning models applied to music audio signals to understand what makes musical performances expressive and how we can make systems that respond appropriately to the subjective and affective qualities of music, perception of which is a uniquely human characteristic.
 
-Currently I am working with the [Con Espressione](https://www.jku.at/en/institute-of-computational-perception/research/projects/con-espressione/) project, and [Prof. Gerhard Widmer](https://www.jku.at/en/institute-of-computational-perception/about-us/people/gerhard-widmer/) is my supervisor.
+Currently I am a part of the [Con Espressione](https://www.jku.at/en/institute-of-computational-perception/research/projects/con-espressione/) project, and [Prof. Gerhard Widmer](https://www.jku.at/en/institute-of-computational-perception/about-us/people/gerhard-widmer/) is my supervisor.
 
 <br>
 
