@@ -28,9 +28,11 @@ Currently I am working with the [Con Espressione](https://www.jku.at/en/institut
 
 **June 10, 2021**: Presented our work on domain adaptation of perceptual features in music at ICASSP 2021 [Paper](https://arxiv.org/abs/2102.13479)
 
+
 ### 2020
 ----
 **December 12, 2020**: Patent granted for our work on audio analytics that I worked on while at Honeywell (project duration: 2017-18). [Link](https://patents.google.com/patent/US10475468B1)
+
 
 ### 2019
 ----
