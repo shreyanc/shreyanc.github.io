@@ -21,6 +21,7 @@ Currently I am working with the [Con Espressione](https://www.jku.at/en/institut
 <br><br>-->
 ## Updates
 ### 2021
+----
 **August 19, 2021**: Gave a 40-minute talk at [MAPLE lab, McMaster University](https://maplelab.net/) titled "Towards Better Features for Music Emotion Recognition: A Machine Learning Approach".
 
 **June 30, 2021**: Presented our work on two-level explanations with sound sources and mid-level features at SMC 2021 [Paper](https://arxiv.org/abs/2106.07787)
@@ -28,11 +29,11 @@ Currently I am working with the [Con Espressione](https://www.jku.at/en/institut
 **June 10, 2021**: Presented our work on domain adaptation of perceptual features in music at ICASSP 2021 [Paper](https://arxiv.org/abs/2102.13479)
 
 ### 2020
-
+----
 **December 12, 2020**: Patent granted for our work on audio analytics that I worked on while at Honeywell (project duration: 2017-18). [Link](https://patents.google.com/patent/US10475468B1)
 
 ### 2019
-
+----
 **November 5, 2019**: Presented my work on explainable emotion recognition in ISMIR 2019, Delft. [Teaser Talk](https://collegerama.tudelft.nl/Mediasite/Showcase/ismir2019/Presentation/b68bfc2ef9214728ac2d5c3d4d3119061d) [Paper/Poster/Demo](https://shreyanc.github.io/ismir2019_paper_poster.html)
 
 **October 27, 2019**: Presented our state-of-the-art results on [emotion and theme recognition task at MediaEval 2019](https://multimediaeval.github.io/2019-Emotion-and-Theme-Recognition-in-Music-Task/) in Sophia Antipolis, France.
