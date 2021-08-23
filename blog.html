@@ -1,3 +1,10 @@
+---
+layout: default
+title: Blog
+published: true
+logo: /assets/img/apad_main_logo.png
+logo_desc: '<a href=''http://phdcomics.com/comics.php?f=964''>Source</a>'
+---
 {% for blog in site.blogs %}
 <small>{{ blog.date | date: "%-d %B %Y" }}</small>
 <h2 style="margin:5px 0 5px 0;padding:0"><a href="{{ blog.url }}">{{ blog.post_title }}</a></h2>
