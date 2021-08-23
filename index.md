@@ -19,7 +19,7 @@ Currently I am working with the [Con Espressione](https://www.jku.at/en/institut
  </ul>
  
 <br><br>-->
-## News
+## Updates
 ### 2021
 **August 19, 2021**: Gave a 40-minute talk at [MAPLE lab, McMaster University](https://maplelab.net/) titled "Towards Better Features for Music Emotion Recognition: A Machine Learning Approach".
 
