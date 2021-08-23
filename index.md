@@ -82,6 +82,10 @@ Currently I am working with the [Con Espressione](https://www.jku.at/en/institut
 >Verena Haunschmid, **Shreyan Chowdhury**, Gerhard Widmer<br>
 >ICML 2019, Machine Learning for Music Discovery Workshop
 
+<br>
+### 2017
+----
+
 [Music Tempo Estimation Using Sub-Band Synchrony (2017)](https://www.isca-speech.org/archive/Interspeech_2017/pdfs/1000.PDF) [[poster]](http://tanayag.com/Pub_files/chowdhury_ISposter.pdf)
 >**Shreyan Chowdhury**, Tanaya Guha, Rajesh M Hegde<br>
 >INTERSPEECH, 3093-3096
