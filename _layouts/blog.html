@@ -1,0 +1,14 @@
+<small>{{ page.date | date: "%-d %B %Y" }}</small>
+<h1 style="margin:5px 0 0 0"><a href="{{ page.link }}">{{ page.post_title }}</a></h1>
+
+<p class="view" style="margin:10px 0 5px 0"><i>{{ page.authors }}</i></p><br>
+
+{{content}}
+
+{% comment %}
+{% if page.tags %}
+  <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
+{% endif %}
+<br>
+<small>~ {{ page.author | default: site.author }}</small>
+{% endcomment %}
