@@ -40,7 +40,7 @@ Currently I am working with the [Con Espressione](https://www.jku.at/en/institut
 
 **October 27, 2019**: Presented our state-of-the-art results on [emotion and theme recognition task at MediaEval 2019](https://multimediaeval.github.io/2019-Emotion-and-Theme-Recognition-in-Music-Task/) in Sophia Antipolis, France.
 
-**October 16, 2019**: Gave a guest talk at the Acoustics Research Institute, ÖAW (Austrian Academy of Sciences) with Verena Haunschmid on Explainable Models and their Application in Music Emotion Recognition.
+**October 16, 2019**: Gave a guest talk at the [Acoustics Research Institute, ÖAW (Austrian Academy of Sciences)](https://www.oeaw.ac.at/isf/home) with Verena Haunschmid on Explainable Models and their Application in Music Emotion Recognition.
 
 <br>
 
