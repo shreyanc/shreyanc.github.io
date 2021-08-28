@@ -22,7 +22,7 @@ Currently I am a part of the [Con Espressione](https://www.jku.at/en/institute-o
 ## Updates
 ### 2021
 ----
-**August 19, 2021**: Gave a 40-minute talk at [MAPLE lab, McMaster University](https://maplelab.net/) titled "Towards Better Features for Music Emotion Recognition: A Machine Learning Approach".
+**August 19, 2021**: Gave a 40-minute talk at [MAPLE lab, McMaster University](https://maplelab.net/) titled "Towards Better Features for Music Emotion Recognition: A Machine Learning Approach". [Slides](assets/pdf/McMasterLabPresentation_2021-08-19_final.pdf)
 
 **June 30, 2021**: Presented our work on two-level explanations with sound sources and mid-level features at SMC 2021 [Paper](https://arxiv.org/abs/2106.07787)
 
