@@ -49,15 +49,15 @@ Currently I am a part of the [Con Espressione](https://www.jku.at/en/institute-o
 ## Publications
 ### 2021
 ----
-[On Perceived Emotion in Expressive Piano Performance: Further Experimental Evidence for the Relevance of Mid-level Features (2021)](https://arxiv.org/abs/2107.13231)
+[On Perceived Emotion in Expressive Piano Performance: Further Experimental Evidence for the Relevance of Mid-level Features](https://arxiv.org/abs/2107.13231)
 > **Shreyan Chowdhury**, Gerhard Widmer<br>
 > ISMIR 2021, Virtual
 
-[Tracing Back Music Emotion Predictions to Sound Sources and Intuitive Perceptual Qualities (2021)](https://arxiv.org/abs/2106.07787)
+[Tracing Back Music Emotion Predictions to Sound Sources and Intuitive Perceptual Qualities](https://arxiv.org/abs/2106.07787)
 > **Shreyan Chowdhury**, Verena Praher, Gerhard Widmer<br>
 > Sound and Music Computing Conference 2021
 
-[Towards Explaining Expressive Qualities in Piano Recordings: Transfer of Explanatory Features via Acoustic Domain Adaptation (2021)](https://arxiv.org/abs/2102.13479)
+[Towards Explaining Expressive Qualities in Piano Recordings: Transfer of Explanatory Features via Acoustic Domain Adaptation](https://arxiv.org/abs/2102.13479)
 > **Shreyan Chowdhury**, Gerhard Widmer<br>
 > ICASSP 2021, Toronto, Canada
 
@@ -69,7 +69,7 @@ Currently I am a part of the [Con Espressione](https://www.jku.at/en/institute-o
 > Carlos Cancino-Chacón, Silvan Peter, **Shreyan Chowdhury**, Anna Aljanaki, Gerhard Widmer<br>
 > ISMIR 2019, Montreal, Canada
 
-[On the Characterization of Expressive Performance in Classical Music: First Results of the Con Espressione Game (2020)](https://arxiv.org/abs/2008.02194)
+[On the Characterization of Expressive Performance in Classical Music: First Results of the Con Espressione Game](https://arxiv.org/abs/2008.02194)
 > Carlos Cancino-Chacón, Silvan Peter, **Shreyan Chowdhury**, Anna Aljanaki, Gerhard Widmer<br>
 > ISMIR 2019, Montreal, Canada
 
@@ -78,15 +78,15 @@ Currently I am a part of the [Con Espressione](https://www.jku.at/en/institute-o
 ### 2019
 ----
 
-[Emotion and Theme Recognition in Music with Frequency-Aware RF-Regularized CNNs (2019)](https://www.jku.at/fileadmin/gruppen/173/Research/Emotion_in_Music_with_Frequency-Aware_RF-Regularized_CNNs_Koutini.pdf)
+[Emotion and Theme Recognition in Music with Frequency-Aware RF-Regularized CNNs](https://www.jku.at/fileadmin/gruppen/173/Research/Emotion_in_Music_with_Frequency-Aware_RF-Regularized_CNNs_Koutini.pdf)
 > Khaled Koutini, **Shreyan Chowdhury**, Verena Haunschmid, Hamid Eghbal-zadeh, Gerhard Widmer<br>
 > MediaEval Multimedia Benchmark 2019, Sophia Antipolis
 
-[Towards Explainable Music Emotion Recognition: The Route via Mid-level Features (2019)](https://arxiv.org/abs/1907.03572) [[demo]](https://shreyanc.github.io/ismir_example.html)
+[Towards Explainable Music Emotion Recognition: The Route via Mid-level Features](https://arxiv.org/abs/1907.03572) [[demo]](https://shreyanc.github.io/ismir_example.html)
 >**Shreyan Chowdhury**, Andreu Vall, Verena Haunschmid, Gerhard Widmer<br>
 >ISMIR 2019, Delft, Netherlands
 
-[Two-level Explanations in Music Emotion Recognition (2019)](https://arxiv.org/abs/1905.11760) [[demo]](https://shreyanc.github.io/ICML_example.html)
+[Two-level Explanations in Music Emotion Recognition](https://arxiv.org/abs/1905.11760) [[demo]](https://shreyanc.github.io/ICML_example.html)
 >Verena Haunschmid, **Shreyan Chowdhury**, Gerhard Widmer<br>
 >ICML 2019, Machine Learning for Music Discovery Workshop
 
@@ -95,6 +95,6 @@ Currently I am a part of the [Con Espressione](https://www.jku.at/en/institute-o
 ### 2017
 ----
 
-[Music Tempo Estimation Using Sub-Band Synchrony (2017)](https://www.isca-speech.org/archive/Interspeech_2017/pdfs/1000.PDF) [[poster]](http://tanayag.com/Pub_files/chowdhury_ISposter.pdf)
+[Music Tempo Estimation Using Sub-Band Synchrony](https://www.isca-speech.org/archive/Interspeech_2017/pdfs/1000.PDF) [[poster]](http://tanayag.com/Pub_files/chowdhury_ISposter.pdf)
 >**Shreyan Chowdhury**, Tanaya Guha, Rajesh M Hegde<br>
 >INTERSPEECH, 3093-3096
