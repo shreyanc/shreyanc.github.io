@@ -62,13 +62,19 @@ Currently I am a part of the [Con Espressione](https://www.jku.at/en/institute-o
 > ICASSP 2021, Toronto, Canada
 
 <br>
+
 ### 2020
 ----
+[The Con Espressione Game Dataset (1.0.0)](https://doi.org/10.5281/zenodo.3968828)
+> Carlos Cancino-Chacón, Silvan Peter, **Shreyan Chowdhury**, Anna Aljanaki, Gerhard Widmer<br>
+> ISMIR 2019, Montreal, Canada
+
 [On the Characterization of Expressive Performance in Classical Music: First Results of the Con Espressione Game (2020)](https://arxiv.org/abs/2008.02194)
 > Carlos Cancino-Chacón, Silvan Peter, **Shreyan Chowdhury**, Anna Aljanaki, Gerhard Widmer<br>
 > ISMIR 2019, Montreal, Canada
 
 <br>
+
 ### 2019
 ----
 
@@ -85,6 +91,7 @@ Currently I am a part of the [Con Espressione](https://www.jku.at/en/institute-o
 >ICML 2019, Machine Learning for Music Discovery Workshop
 
 <br>
+
 ### 2017
 ----
 
