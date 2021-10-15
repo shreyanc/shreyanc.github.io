@@ -3,15 +3,21 @@ layout: default
 title: Blog
 published: true
 logo: /assets/img/blog_main_logo.png
-logo_desc: '<a href="http://phdcomics.com/comics/archive.php?comicid=971">Source</a>'
+<!--logo_desc: <a href="https://phdcomics.com/comics/archive.php?comicid=971">Source</a>-->
 ---
-{% for blog in site.blogs %}
-<small>{{ blog.date | date: "%-d %B %Y" }}</small>
-<h2 style="margin:5px 0 5px 0;padding:0"><a href="{{ blog.url }}">{{ blog.post_title }}</a></h2>
+Under construction ...
+{% for post in site.posts %}
+{% if post.type=='blog' %}
+    <small>{{ post.date | date: "%-d %B %Y" }}</small>
+    <h2 style="margin:5px 0 5px 0;padding:0"><a href="{{ post.url }}">{{ post.post_title }}</a></h2>
+    <p style="margin:4px 0 0 0;padding:0"><i>{{ post.authors }}</i></p>
 
 
-{{ blog.summary }}
-    
-<br><br>
-<hr>
+    {{ post.summary }}
+
+    <br><br>
+    <hr>
+{% endif %}
+
 {% endfor %}
+

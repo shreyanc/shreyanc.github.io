@@ -1,5 +1,6 @@
 @import "fonts";
 @import "rouge-github";
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap');
 
 body {
   background-color: #fff;
@@ -58,6 +59,16 @@ a:hover small {
 .wrapper {
   width:860px;
   margin:0 auto;
+}
+
+.sitelogo {
+  border-radius: 2em 5em;
+}
+
+.blogtext p{
+  text-align: justify;
+  //font-family: 'Crimson Pro', serif;
+  //font-size: large;
 }
 
 blockquote {
