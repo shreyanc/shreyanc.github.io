@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: basic
 published: true
 ---
 ## Decoding and Visualising Intended Emotion in an Expressive Piano Performance
