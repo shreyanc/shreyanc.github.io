@@ -24,6 +24,15 @@
   <body>
     <div class="wrapper">
 
+      <header>
+        {% if page.logo %}
+            <img style="display:block; margin:auto" src="{{page.logo | relative_url}}" alt="Page Logo" />
+            <small>{{ page.logo_desc }}</small>
+        {% else %}
+	      	<img class="sitelogo" src="{{site.logo | relative_url}}" alt="Site Logo" />
+        {% endif %}
+      </header>
+
       <section>
 
       {{ content }}
