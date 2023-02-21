@@ -1,11 +1,11 @@
 ---
-published: false
+published: true
 comments: true
 post_title: Can a Pop Music Feature Extractor Work for Classical Piano?
 author: Shreyan Chowdhury
 summary: Deep feature extractors for music - how do they perform on an unseen genre, and can domain adaptation help?  
 logo: /assets/img/blog_imgs/2021-10-04-domain-adaptation/transfer.png
-tags: 
+tags: research
 
 type: blog
 layout: blog

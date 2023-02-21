@@ -1,11 +1,11 @@
 ---
-published: false
+published: true
 comments: true
 post_title: Thesis Writing
 author: Shreyan Chowdhury
 summary: The first of a series to chronicle my thesis writing process, and reflect on my PhD journey.  
 logo: /assets/img/blog_imgs/typewriter.jpg
-tags: 
+tags: thesis
 
 type: blog
 layout: blog

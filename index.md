@@ -3,13 +3,30 @@ layout: default
 published: true
 is_home_page: true
 ---
-## Hi!
+<h1 class="title-center"> Shreyan Chowdhury </h1>
 
-I am a PhD student at the [Institute of Computational Perception](https://www.jku.at/en/institute-of-computational-perception/) in Johannes Kepler University Linz, Austria.
+<p style="margin-top: -1em; text-align: center; font-size: small; font-weight: bold"><a href="#" id="show-email">Reveal Email</a></p>
+<script>
+    var showEmailLink = document.getElementById('show-email');
+    var emailID = 'shreyan.chowdhury@jku.at';
+    showEmailLink.addEventListener('click', function(event) {
+        if (showEmailLink.textContent === 'Reveal Email') {
+            showEmailLink.textContent = emailID;
+            showEmailLink.href = 'mailto:'+emailID;
+            event.preventDefault();
+            return false;
+            }
+        else {
+            showEmailLink.textContent = emailID;
+            showEmailLink.href = 'mailto:'+emailID;
+            }
+        });
+</script>
 
-I work with deep learning models applied to music audio signals to understand what makes musical performances expressive and how we can make systems that respond appropriately to the subjective and affective qualities of music, perception of which is a uniquely human characteristic.
 
-Currently I am a part of the [Con Espressione](https://www.jku.at/en/institute-of-computational-perception/research/projects/con-espressione/) project, and [Prof. Gerhard Widmer](https://www.jku.at/en/institute-of-computational-perception/about-us/people/gerhard-widmer/) is my supervisor.
+I am a post-doctoral researcher in the [Institute of Computational Perception](https://www.jku.at/en/institute-of-computational-perception/about-us/people/shreyan-chowdhury/), a research group under the Department of Computer Science at Johannes Kepler University Linz, Austria. I work in **Artificial Intelligence applied to Audio and Music**. My interests lie in **representation learning** for audio, **explainable** machine learning, **domain adaptation**, audio signal processing, and music information retrieval. 
+
+I received my Ph.D. from Johannes Kepler University Linz, Austria, advised by [Prof. Gerhard Widmer](https://www.jku.at/en/institute-of-computational-perception/about-us/people/gerhard-widmer/). Before that, I was a Product Design Engineer at Honeywell Technology Solutions, Bangalore, India. I hold Masters and Bachelors degrees in Electrical Engineering from Indian Institute of Technology ([IIT-Kanpur](https://en.wikipedia.org/wiki/IIT_Kanpur)), India.
 
 <br>
 
@@ -19,36 +36,13 @@ Currently I am a part of the [Con Espressione](https://www.jku.at/en/institute-o
  </ul>
  
 <br><br>-->
-## Updates
-### 2021
-----
-**September 30, 2021**: Passed my pre-defense colloquium! [[slides]](assets/pdf/Colloquium_2021-09-30.pdf)
+---
 
-**August 19, 2021**: Gave a talk at [MAPLE lab, McMaster University](https://maplelab.net/) titled "Towards Better Features for Music Emotion Recognition: A Machine Learning Approach". [[slides]](assets/pdf/McMasterLabPresentation_2021-08-19_final.pdf)
+{% include updates_expandable.html %}
 
-**June 30, 2021**: Presented our work on two-level explanations with sound sources and mid-level features at SMC 2021. [[paper]](https://arxiv.org/abs/2106.07787)
-
-**June 10, 2021**: Presented our work on domain adaptation of perceptual features in music at ICASSP 2021. [[paper]](https://arxiv.org/abs/2102.13479)
-
-<br>
-### 2020
-----
-**December 12, 2020**: Patent granted for our work on audio analytics that I worked on while at Honeywell (project duration: 2017-18). [[patent]](https://patents.google.com/patent/US10475468B1)
-
-<br>
-### 2019
-----
-**November 5, 2019**: Presented my work on explainable emotion recognition in ISMIR 2019, Delft. [[teaser talk]](https://collegerama.tudelft.nl/Mediasite/Showcase/ismir2019/Presentation/b68bfc2ef9214728ac2d5c3d4d3119061d) [[paper/poster/demo]](https://shreyanc.github.io/ismir2019_paper_poster.html)
-
-**October 27, 2019**: Presented our state-of-the-art results on [emotion and theme recognition task at MediaEval 2019](https://multimediaeval.github.io/2019-Emotion-and-Theme-Recognition-in-Music-Task/) in Sophia Antipolis, France. [[paper]](https://arxiv.org/abs/1911.05833)
-
-**October 16, 2019**: Gave a guest talk at the [Acoustics Research Institute, ÖAW (Austrian Academy of Sciences)](https://www.oeaw.ac.at/isf/home) with [Verena Haunschmid](https://www.jku.at/en/institute-of-computational-perception/about-us/people/verena-haunschmid) on Explainable Models and their Application in Music Emotion Recognition.
-
-<br>
-
+---
 ## Publications
-### 2021
-----
+
 [On Perceived Emotion in Expressive Piano Performance: Further Experimental Evidence for the Relevance of Mid-level Features](https://arxiv.org/abs/2107.13231)
 > **Shreyan Chowdhury**, Gerhard Widmer<br>
 > ISMIR 2021, Virtual
@@ -61,10 +55,7 @@ Currently I am a part of the [Con Espressione](https://www.jku.at/en/institute-o
 > **Shreyan Chowdhury**, Gerhard Widmer<br>
 > ICASSP 2021, Toronto, Canada
 
-<br>
 
-### 2020
-----
 [The Con Espressione Game Dataset (1.0.0)](https://doi.org/10.5281/zenodo.3968828)
 > Carlos Cancino-Chacón, Silvan Peter, **Shreyan Chowdhury**, Anna Aljanaki, Gerhard Widmer<br>
 > ISMIR 2019, Montreal, Canada
@@ -73,10 +64,7 @@ Currently I am a part of the [Con Espressione](https://www.jku.at/en/institute-o
 > Carlos Cancino-Chacón, Silvan Peter, **Shreyan Chowdhury**, Anna Aljanaki, Gerhard Widmer<br>
 > ISMIR 2019, Montreal, Canada
 
-<br>
 
-### 2019
-----
 
 [Emotion and Theme Recognition in Music with Frequency-Aware RF-Regularized CNNs](https://www.jku.at/fileadmin/gruppen/173/Research/Emotion_in_Music_with_Frequency-Aware_RF-Regularized_CNNs_Koutini.pdf)
 > Khaled Koutini, **Shreyan Chowdhury**, Verena Haunschmid, Hamid Eghbal-zadeh, Gerhard Widmer<br>
@@ -90,10 +78,7 @@ Currently I am a part of the [Con Espressione](https://www.jku.at/en/institute-o
 >Verena Haunschmid, **Shreyan Chowdhury**, Gerhard Widmer<br>
 >ICML 2019, Machine Learning for Music Discovery Workshop
 
-<br>
 
-### 2017
-----
 
 [Music Tempo Estimation Using Sub-Band Synchrony](https://www.isca-speech.org/archive/Interspeech_2017/pdfs/1000.PDF) [[poster]](http://tanayag.com/Pub_files/chowdhury_ISposter.pdf)
 >**Shreyan Chowdhury**, Tanaya Guha, Rajesh M Hegde<br>

@@ -1,0 +1,6 @@
+{% capture words %}
+{{ content | strip_html | number_of_words }}
+{% endcapture %}
+{% unless words contains '-' %}
+{{ words | divided_by: 180 | at_least: 1 | append: ' min read' }}
+{% endunless %}

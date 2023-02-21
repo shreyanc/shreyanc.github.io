@@ -27,15 +27,15 @@
   <body>
     <div class="wrapper">
       <header>
-	      {% if page.is_home_page %}
-            <h1><a href="{{ '/' | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
-          {% else %}
-            <h1><a href="#">{{ page.title }}</a></h1>
-	      {% endif %}
+<!--	      {% if page.is_home_page %}-->
+<!--            <h1 class="site-title title-center"><a href="{{ '/' | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>-->
+<!--          {% else %}-->
+<!--            <h1><a href="#">{{ page.title }}</a></h1>-->
+<!--	      {% endif %}-->
 	      
 	      {% if page.logo %}
-          <img style="display:block; margin:auto" src="{{page.logo | relative_url}}" alt="Page Logo" />
-          <small>{{ page.logo_desc }}</small>
+            <img style="display:block; margin:auto" src="{{page.logo | relative_url}}" alt="Page Logo" />
+            <small>{{ page.logo_desc }}</small>
 	      {% else %}
 	      	<img class="sitelogo" src="{{site.logo | relative_url}}" alt="Site Logo" />
         {% endif %}
@@ -43,12 +43,18 @@
         <br>
         <br>
         {% if page.is_home_page %}
-        <a rel="me" href="https://twitter.com/shreyan_ch"><img style="margin: 0 5px 0 0" width="25" height="25" src="/assets/img/twitter.svg"></a>
-        <a rel="me" href="https://scholar.google.com.au/citations?user=WGjp-vYAAAAJ&hl=en"><img style="margin: 0 5px" width="25" height="25" src="/assets/img/scholar.png"></a>
-        <a rel="me" href="https://www.linkedin.com/in/shreyan-chowdhury"><img style="margin: 0 5px" width="25" height="25" src="/assets/img/linkedin.png"></a>
-        <a rel="me" href="https://www.soundcloud.com/shreyan-chowdhury"><img style="margin: 0 5px" width="25" height="25" src="/assets/img/soundcloud.svg"></a>
-        <br><br>
-        <hr>
+<!--        <a rel="me" href="https://twitter.com/shreyan_ch"><img style="margin: 0 5px 0 0" width="25" height="25" src="/assets/img/twitter.svg"></a>-->
+<!--        <a rel="me" href="https://scholar.google.com.au/citations?user=WGjp-vYAAAAJ&hl=en"><img style="margin: 0 5px" width="25" height="25" src="/assets/img/scholar.png"></a>-->
+<!--        <a rel="me" href="https://www.linkedin.com/in/shreyan-chowdhury"><img style="margin: 0 5px" width="25" height="25" src="/assets/img/linkedin.png"></a>-->
+<!--        <a rel="me" href="https://www.soundcloud.com/shreyan-chowdhury"><img style="margin: 0 5px" width="25" height="25" src="/assets/img/soundcloud.svg"></a>-->
+<!--        <br><br>-->
+<!--        <hr>-->
+          <p class="my-links title-center">
+          <a href="/assets/pdf/Resume_PostDoc_2023-02-20.pdf" target="_blank">CV</a> | <a href="https://scholar.google.com.au/citations?user=WGjp-vYAAAAJ&hl=en" target="_blank">Google Scholar</a> | <a href="https://epub.jku.at/obvulihs/content/titleinfo/8165733/full.pdf" target="_blank">PhD Thesis</a><br>
+              <a href="https://sigmoid.social/@shreyan" target="_blank">Mastodon</a> | <a href="https://twitter.com/shreyan_ch" target="_blank">Twitter</a> | <a href="https://www.linkedin.com/in/shreyan-chowdhury/" target="_blank">LinkedIn</a><br>
+              <a href="https://github.com/shreyanc" target="_blank">Github</a>
+          </p>
+          <br>
         <!--<p class="view"><a href="/apad.html">A Paper a Day</a></p>
         <p class="view"><a href="/projects.html">Projects</a></p>
         <p class="view"><a href="/cv.html">My CV</a></p>-->
