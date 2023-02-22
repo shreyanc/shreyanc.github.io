@@ -161,6 +161,12 @@ a small { font-size: 11px; color: #777; margin-top: -0.3em; display: block; }
 
 a:hover small { color: #777; }
 
+.publication { font-weight: bold; }
+
+.pub-details { font-size: medium; margin-top: -0.5em; }
+
+.pub-links { font-size: medium; margin-top: -0.5em; }
+
 .wrapper { width: 1030px; margin: 0 auto; }
 
 .sitelogo { border-radius: 2em 5em; margin-top: 3em; }
