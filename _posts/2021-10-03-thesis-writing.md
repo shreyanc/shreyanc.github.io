@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 comments: true
 post_title: Thesis Writing
 author: Shreyan Chowdhury
