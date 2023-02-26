@@ -1,5 +1,6 @@
 ## Publications
 
+### Emotion Recognition in Piano Music
 <a href="https://arxiv.org/abs/2107.13231" class="publication">On Perceived Emotion in Expressive Piano Performance: Further Experimental Evidence for the Relevance of Mid-level Features</a>
 <p class="pub-details">
     Shreyan Chowdhury, Gerhard Widmer<br>
@@ -13,41 +14,6 @@
 </p>
 
 
-<a href="https://arxiv.org/abs/2106.07787" class="publication">Tracing Back Music Emotion Predictions to Sound Sources and Intuitive Perceptual Qualities</a>
-<p class="pub-details">
-    Shreyan Chowdhury, Verena Praher, Gerhard Widmer<br>
-    SMC 2021, Virtual
-</p>
-<p class="pub-links">
-    <a href="javascript:void(0)" onclick="toggleBlock('smc2021-abstract')">[abstract]</a> | <a href="https://arxiv.org/abs/2106.07787">[full paper]</a>
-    <div id="smc2021-abstract" style="display:none; margin-left: 2em">
-    Music emotion recognition is an important task in MIR (Music Information Retrieval) research. Owing to factors like the subjective nature of the task and the variation of emotional cues between musical genres, there are still significant challenges in developing reliable and generalizable models. One important step towards better models would be to understand what a model is actually learning from the data and how the prediction for a particular input is made. In previous work, we have shown how to derive explanations of model predictions in terms of spectrogram image segments that connect to the high-level emotion prediction via a layer of easily interpretable perceptual features. However, that scheme lacks intuitive musical comprehensibility at the spectrogram level. In the present work, we bridge this gap by merging audioLIME -- a source-separation based explainer -- with mid-level perceptual features, thus forming an intuitive connection chain between the input audio and the output emotion predictions. We demonstrate the usefulness of this method by applying it to debug a biased emotion prediction model.
-    </div>
-</p>
-
-<a href="https://arxiv.org/abs/2102.13479" class="publication">Towards Explaining Expressive Qualities in Piano Recordings: Transfer of Explanatory Features via Acoustic Domain Adaptation</a>
-<p class="pub-details">
-    Shreyan Chowdhury, Gerhard Widmer<br>
-    ICASSP 2021, Toronto, Canada
-</p>
-<p class="pub-links">
-    <a href="javascript:void(0)" onclick="toggleBlock('icassp2021-abstract')">[abstract]</a> | <a href="https://arxiv.org/abs/2102.13479">[full paper]</a>
-    <div id="icassp2021-abstract" style="display:none; margin-left: 2em">
-    Emotion and expressivity in music have been topics of considerable interest in the field of music information retrieval. In recent years, mid-level perceptual features have been suggested as means to explain computational predictions of musical emotion. We find that the diversity of musical styles and genres in the available dataset for learning these features is not sufficient for models to generalise well to specialised acoustic domains such as solo piano music. In this work, we show that by utilising unsupervised domain adaptation together with receptive-field regularised deep neural networks, it is possible to significantly improve generalisation to this domain. Additionally, we demonstrate that our domain-adapted models can better predict and explain expressive qualities in classical piano performances, as perceived and described by human listeners.
-    </div>
-</p>
-
-<a href="https://doi.org/10.5281/zenodo.3968828" class="publication">The Con Espressione Game Dataset (1.0.0)</a>
-<p class="pub-details">
-    Carlos Cancino-Chacón, Silvan Peter, Shreyan Chowdhury, Anna Aljanaki, Gerhard Widmer<br>
-</p>
-<p class="pub-links">
-    <a href="javascript:void(0)" onclick="toggleBlock('cedataset-abstract')">[abstract]</a> | <a href="https://doi.org/10.5281/zenodo.3968828">[dataset]</a>
-    <div id="cedataset-abstract" style="display:none; margin-left: 2em">
-    A piece of music can be expressively performed, or interpreted, in a variety of ways. With the help of an online questionnaire, the Con Espressione Game, we collected some 1,500 descriptions of expressive character relating to 45 performances of 9 excerpts from classical piano pieces, played by different famous pianists. More specifically, listeners were asked to describe, using freely chosen words (preferably: adjectives), how they perceive the expressive character of the different performances. The aim of this research is to find the dimensions of musical expression (in Western classical piano music) that can be attributed to a performance, as perceived and described in natural language by listeners.
-    </div>
-</p>
-
 <a href="https://arxiv.org/abs/2008.02194" class="publication">On the Characterization of Expressive Performance in Classical Music: First Results of the Con Espressione Game</a>
 <p class="pub-details">
     Carlos Cancino-Chacón, Silvan Peter, Shreyan Chowdhury, Anna Aljanaki, Gerhard Widmer<br>
@@ -60,18 +26,7 @@
     </div>
 </p>
 
-
-<a href="https://www.jku.at/fileadmin/gruppen/173/Research/Emotion_in_Music_with_Frequency-Aware_RF-Regularized_CNNs_Koutini.pdf" class="publication">Emotion and Theme Recognition in Music with Frequency-Aware RF-Regularized CNNs</a>
-<p class="pub-details">
-    Khaled Koutini, Shreyan Chowdhury, Verena Haunschmid, Hamid Eghbal-zadeh, Gerhard Widmer<br>
-    MediaEval Multimedia Benchmark 2019, Sophia Antipolis, France
-</p>
-<p class="pub-links">
-    <a href="javascript:void(0)" onclick="toggleBlock('mediaeval2019-abstract')">[abstract]</a> | <a href="https://www.jku.at/fileadmin/gruppen/173/Research/Emotion_in_Music_with_Frequency-Aware_RF-Regularized_CNNs_Koutini.pdf">[full paper]</a>
-    <div id="mediaeval2019-abstract" style="display:none; margin-left: 2em">
-    We present a Receptive Field-(RF)-regularized and Frequency-Aware CNN approach for tagging music with emotion/mood labels. We perform an investigation regarding the impact of the RF of the CNNs on their performance on this dataset. We observe that ResNets with smaller receptive fields – originally adapted for acoustic scene classification – also perform well in the emotion tagging task. We improve the performance of such architectures using techniques such as Frequency Awareness and Shake-Shake regularization, which were used in previous work on general acoustic recognition tasks.
-    </div>
-</p>
+### Explainable Emotion Recognition
 
 <a href="https://arxiv.org/abs/1907.03572" class="publication">Towards Explainable Music Emotion Recognition: The Route via Mid-level Features</a>
 <p class="pub-details">
@@ -96,6 +51,59 @@
     Current ML models for music emotion recognition, while generally working quite well, do not give meaningful or intuitive explanations for their predictions. In this work, we propose a 2-step procedure to arrive at spectrogram-level explanations that connect certain aspects of the audio to interpretable mid-level perceptual features, and these to the actual emotion prediction. That makes it possible to focus on specific musical reasons for a prediction (in terms of perceptual features), and to trace these back to patterns in the audio that can be interpreted visually and acoustically.
     </div>
 </p>
+
+<a href="https://arxiv.org/abs/2106.07787" class="publication">Tracing Back Music Emotion Predictions to Sound Sources and Intuitive Perceptual Qualities</a>
+<p class="pub-details">
+    Shreyan Chowdhury, Verena Praher, Gerhard Widmer<br>
+    SMC 2021, Virtual
+</p>
+<p class="pub-links">
+    <a href="javascript:void(0)" onclick="toggleBlock('smc2021-abstract')">[abstract]</a> | <a href="https://arxiv.org/abs/2106.07787">[full paper]</a>
+    <div id="smc2021-abstract" style="display:none; margin-left: 2em">
+    Music emotion recognition is an important task in MIR (Music Information Retrieval) research. Owing to factors like the subjective nature of the task and the variation of emotional cues between musical genres, there are still significant challenges in developing reliable and generalizable models. One important step towards better models would be to understand what a model is actually learning from the data and how the prediction for a particular input is made. In previous work, we have shown how to derive explanations of model predictions in terms of spectrogram image segments that connect to the high-level emotion prediction via a layer of easily interpretable perceptual features. However, that scheme lacks intuitive musical comprehensibility at the spectrogram level. In the present work, we bridge this gap by merging audioLIME -- a source-separation based explainer -- with mid-level perceptual features, thus forming an intuitive connection chain between the input audio and the output emotion predictions. We demonstrate the usefulness of this method by applying it to debug a biased emotion prediction model.
+    </div>
+</p>
+
+
+### Domain Adaptation
+<a href="https://arxiv.org/abs/2102.13479" class="publication">Towards Explaining Expressive Qualities in Piano Recordings: Transfer of Explanatory Features via Acoustic Domain Adaptation</a>
+<p class="pub-details">
+    Shreyan Chowdhury, Gerhard Widmer<br>
+    ICASSP 2021, Toronto, Canada
+</p>
+<p class="pub-links">
+    <a href="javascript:void(0)" onclick="toggleBlock('icassp2021-abstract')">[abstract]</a> | <a href="https://arxiv.org/abs/2102.13479">[full paper]</a>
+    <div id="icassp2021-abstract" style="display:none; margin-left: 2em">
+    Emotion and expressivity in music have been topics of considerable interest in the field of music information retrieval. In recent years, mid-level perceptual features have been suggested as means to explain computational predictions of musical emotion. We find that the diversity of musical styles and genres in the available dataset for learning these features is not sufficient for models to generalise well to specialised acoustic domains such as solo piano music. In this work, we show that by utilising unsupervised domain adaptation together with receptive-field regularised deep neural networks, it is possible to significantly improve generalisation to this domain. Additionally, we demonstrate that our domain-adapted models can better predict and explain expressive qualities in classical piano performances, as perceived and described by human listeners.
+    </div>
+</p>
+
+### Music Information Retrieval
+<a href="https://doi.org/10.5281/zenodo.3968828" class="publication">The Con Espressione Game Dataset (1.0.0)</a>
+<p class="pub-details">
+    Carlos Cancino-Chacón, Silvan Peter, Shreyan Chowdhury, Anna Aljanaki, Gerhard Widmer<br>
+</p>
+<p class="pub-links">
+    <a href="javascript:void(0)" onclick="toggleBlock('cedataset-abstract')">[abstract]</a> | <a href="https://doi.org/10.5281/zenodo.3968828">[dataset]</a>
+    <div id="cedataset-abstract" style="display:none; margin-left: 2em">
+    A piece of music can be expressively performed, or interpreted, in a variety of ways. With the help of an online questionnaire, the Con Espressione Game, we collected some 1,500 descriptions of expressive character relating to 45 performances of 9 excerpts from classical piano pieces, played by different famous pianists. More specifically, listeners were asked to describe, using freely chosen words (preferably: adjectives), how they perceive the expressive character of the different performances. The aim of this research is to find the dimensions of musical expression (in Western classical piano music) that can be attributed to a performance, as perceived and described in natural language by listeners.
+    </div>
+</p>
+
+
+<a href="https://www.jku.at/fileadmin/gruppen/173/Research/Emotion_in_Music_with_Frequency-Aware_RF-Regularized_CNNs_Koutini.pdf" class="publication">Emotion and Theme Recognition in Music with Frequency-Aware RF-Regularized CNNs</a>
+<p class="pub-details">
+    Khaled Koutini, Shreyan Chowdhury, Verena Haunschmid, Hamid Eghbal-zadeh, Gerhard Widmer<br>
+    MediaEval Multimedia Benchmark 2019, Sophia Antipolis, France
+</p>
+<p class="pub-links">
+    <a href="javascript:void(0)" onclick="toggleBlock('mediaeval2019-abstract')">[abstract]</a> | <a href="https://www.jku.at/fileadmin/gruppen/173/Research/Emotion_in_Music_with_Frequency-Aware_RF-Regularized_CNNs_Koutini.pdf">[full paper]</a>
+    <div id="mediaeval2019-abstract" style="display:none; margin-left: 2em">
+    We present a Receptive Field-(RF)-regularized and Frequency-Aware CNN approach for tagging music with emotion/mood labels. We perform an investigation regarding the impact of the RF of the CNNs on their performance on this dataset. We observe that ResNets with smaller receptive fields – originally adapted for acoustic scene classification – also perform well in the emotion tagging task. We improve the performance of such architectures using techniques such as Frequency Awareness and Shake-Shake regularization, which were used in previous work on general acoustic recognition tasks.
+    </div>
+</p>
+
+
 
 <a href="https://www.isca-speech.org/archive_v0/Interspeech_2017/pdfs/1000.PDF" class="publication">Music Tempo Estimation Using Sub-Band Synchrony</a>
 <p class="pub-details">

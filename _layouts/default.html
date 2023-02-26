@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+      <script src="https://kit.fontawesome.com/8ea6e86003.js" crossorigin="anonymous"></script>
 
 {% seo %}
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
@@ -26,20 +27,21 @@
   </head>
   <body>
     <div class="wrapper">
-      <header>
+      <header class="side-header">
 <!--	      {% if page.is_home_page %}-->
 <!--            <h1 class="site-title title-center"><a href="{{ '/' | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>-->
 <!--          {% else %}-->
 <!--            <h1><a href="#">{{ page.title }}</a></h1>-->
 <!--	      {% endif %}-->
-	      
-	      {% if page.logo %}
-            <img style="display:block; margin:auto" src="{{page.logo | relative_url}}" alt="Page Logo" />
-            <small>{{ page.logo_desc }}</small>
-	      {% else %}
-	      	<img class="sitelogo" src="{{site.logo | relative_url}}" alt="Site Logo" />
-        {% endif %}
-        
+	      	<img class="sitelogo" src="{{page.logo}}" alt="Site Logo" />
+
+<!--	      {% if page.logo %}-->
+<!--            <img style="display:block; margin:auto" src="{{page.logo | relative_url}}" alt="Page Logo" />-->
+<!--            <small>{{ page.logo_desc }}</small>-->
+<!--	      {% else %}-->
+<!--	      	<img class="sitelogo" src="{{site.logo | relative_url}}" alt="Site Logo" />-->
+<!--        {% endif %}-->
+
         <br>
         <br>
         {% if page.is_home_page %}
@@ -49,22 +51,34 @@
 <!--        <a rel="me" href="https://www.soundcloud.com/shreyan-chowdhury"><img style="margin: 0 5px" width="25" height="25" src="/assets/img/soundcloud.svg"></a>-->
 <!--        <br><br>-->
 <!--        <hr>-->
-          <p class="my-links title-center">
-          <a href="/assets/pdf/Resume_PostDoc_2023-02-20.pdf" target="_blank">CV</a> | <a href="https://scholar.google.com.au/citations?user=WGjp-vYAAAAJ&hl=en" target="_blank">Google Scholar</a> | <a href="https://epub.jku.at/obvulihs/content/titleinfo/8165733/full.pdf" target="_blank">PhD Thesis</a><br>
-              <a href="https://sigmoid.social/@shreyan" target="_blank">Mastodon</a> | <a href="https://twitter.com/shreyan_ch" target="_blank">Twitter</a> | <a href="https://www.linkedin.com/in/shreyan-chowdhury/" target="_blank">LinkedIn</a><br>
-              <a href="https://github.com/shreyanc" target="_blank">Github</a>
-          </p>
+<!--          <p class="my-links title-center">-->
+<!--          <a href="/assets/pdf/Resume_PostDoc_2023-02-20.pdf" target="_blank">CV</a> | <a href="https://scholar.google.com.au/citations?user=WGjp-vYAAAAJ&hl=en" target="_blank">Google Scholar</a> | <a href="https://epub.jku.at/obvulihs/content/titleinfo/8165733/full.pdf" target="_blank">PhD Thesis</a><br>-->
+              <div style="font-size: larger; text-align: center; margin-top: -0.5em">
+                <table style="width: 100%;">
+                <tr><td><a href="https://sigmoid.social/@shreyan" target="_blank"><i class="fa-brands fa-mastodon"></i></a></td> <td><a href="https://twitter.com/shreyan_ch" target="_blank"><i class="fa-brands fa-twitter"></i></td> </a>
+              <td><a href="https://www.linkedin.com/in/shreyan-chowdhury/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></td> <td><a href="https://github.com/shreyanc" target="_blank"><i class="fa-brands fa-github"></i></a></td>
+                </tr>
+                </table>
+
+            </div>
+<!--          </p>-->
           <br>
         <!--<p class="view"><a href="/apad.html">A Paper a Day</a></p>
         <p class="view"><a href="/projects.html">Projects</a></p>
         <p class="view"><a href="/cv.html">My CV</a></p>-->
-        <p class="view"><a href="#updates">Updates</a></p>
-        <p class="view"><a href="#publications">Publications</a></p>
-        <p class="view"><a href="/blog.html">Blog</a></p>
-        
+<!--        <p class="view"><a href="#updates">What I've been up to</a></p>-->
+        <p class="view"><a href="index">Home</a></p>
+        <p class="view"><a href="aboutme">About Me</a></p>
+<!--        <p class="view"><a href="/blog.html">I/O</a></p>-->
+<!--        <p class="view"><a href="aboutme">self.process(life)</a></p>-->
+<!--        <p class="view"><a href="#publications">Publications</a></p>-->
+<!--        <p class="view"><a href="/blog.html">Resources for students</a></p>-->
+<!--        <p class="view"><a href="/blog.html">Teaching/Mentoring</a></p>-->
+<!--        <p class="view"><a href="/blog.html">Blog</a></p>-->
+
         {% else %}
-        <hr>
-        <p class="view"><a href="/">Home</a></p>
+<!--        <hr>-->
+<!--        <p class="view"><a href="/">Home</a></p>-->
           {% if page.parent %}
             <p class="view"><a href={{ page.parent }}>Back</a></p>
           {% endif %}
@@ -72,19 +86,19 @@
         {% endif %}
 
 
-        
+
       </header>
       <section>
 
       {{ content }}
 
       </section>
-      <footer>
-        {% if site.github.is_project_page %}
-        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
+<!--      <footer>-->
+<!--        {% if site.github.is_project_page %}-->
+<!--        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>-->
+<!--        {% endif %}-->
+<!--        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>-->
+<!--      </footer>-->
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
     {% if site.google_analytics %}

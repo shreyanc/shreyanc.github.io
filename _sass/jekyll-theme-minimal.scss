@@ -23,6 +23,13 @@ body {
   text-align: center;
 }
 
+.subtitle {
+  text-align: center;
+  color: #555;
+  font-weight: lighter;
+  margin-top: -0.5em;
+}
+
 h1, h2, h3, h4, h5, h6 {
   color:#222;
   margin:0 0 20px;
@@ -45,6 +52,8 @@ h2 {
 }
 
 h3, h4, h5, h6 {
+  margin-top: 1.5em;
+  margin-bottom: 0.8em;
   color:#494949;
 }
 
@@ -89,9 +98,10 @@ a:hover small {
   margin-top: -0.5em;
 }
 .wrapper {
-  width:1030px;
+  width:1000px;
   margin:0 auto;
 }
+
 
 .sitelogo {
   //border-radius: 2em 5em;
@@ -139,7 +149,7 @@ table {
 }
 
 th, td {
-  text-align:left;
+  text-align:center;
   padding:5px 10px;
   border-bottom:1px solid #e5e5e5;
 }
@@ -157,12 +167,20 @@ img {
   max-width:100%;
 }
 
-header {
-  width:270px;
+.side-header {
+  width:220px;
   float:left;
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
 }
+
+.top-header {
+  //width:220px;
+  float:top;
+  position:relative;
+  -webkit-font-smoothing:subpixel-antialiased;
+}
+
 
 ul.downloads {
   list-style:none;
@@ -225,7 +243,7 @@ strong {
 }
 
 section {
-  width:700px;
+  width:730px;
   float:right;
   padding-bottom:50px;
 }
