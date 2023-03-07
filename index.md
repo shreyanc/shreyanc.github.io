@@ -4,8 +4,10 @@ published: true
 is_home_page: true
 logo: assets/img/dp2.jpg
 ---
+<div id="headline">
 <h1 class="title-center"> Shreyan Chowdhury </h1>
 <h3 class="subtitle">Machine Learning Researcher | Music+AI Engineer </h3>
+</div>
 
 [//]: # (<p style="margin-top: -1em; text-align: center; font-size: small; font-weight: bold"><a href="#" id="show-email">Reveal Email</a></p>)
 
