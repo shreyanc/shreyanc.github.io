@@ -22,7 +22,7 @@
 	</script>
 <!-- Mathjax Support -->
 <script type="text/javascript" async
-  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
   </head>
   <body>
@@ -33,7 +33,11 @@
 <!--          {% else %}-->
 <!--            <h1><a href="#">{{ page.title }}</a></h1>-->
 <!--	      {% endif %}-->
+          {% if page.is_home_page %}
 	      	<img class="sitelogo" src="{{page.logo}}" alt="Site Logo" />
+          {% else %}
+            <img class="pagelogo" src="{{page.logo}}" alt="Site Logo" />
+          {% endif %}
 
 <!--	      {% if page.logo %}-->
 <!--            <img style="display:block; margin:auto" src="{{page.logo | relative_url}}" alt="Page Logo" />-->
@@ -69,14 +73,16 @@
 <!--        <p class="view"><a href="#updates">What I've been up to</a></p>-->
         <p class="view"><a href="index">Home</a></p>
         <p class="view"><a href="aboutme">About Me</a></p>
-<!--        <p class="view"><a href="/blog.html">I/O</a></p>-->
+        <p class="view"><a href="assets/pdf/Resume_PostDoc_2023-02-20.pdf" target="_blank">CV</a></p>
 <!--        <p class="view"><a href="aboutme">self.process(life)</a></p>-->
 <!--        <p class="view"><a href="#publications">Publications</a></p>-->
-<!--        <p class="view"><a href="/blog.html">Resources for students</a></p>-->
-<!--        <p class="view"><a href="/blog.html">Teaching/Mentoring</a></p>-->
-<!--        <p class="view"><a href="/blog.html">Blog</a></p>-->
+<!--        <p class="view"><a href="/blog_home.html">Resources for students</a></p>-->
+<!--        <p class="view"><a href="/blog_home.html">Teaching/Mentoring</a></p>-->
+<!--        <p class="view"><a href="/blog_home.html">Sound Science (Blog)</a></p>-->
 
         {% else %}
+          <a href='/'>Home</a>
+
 <!--        <hr>-->
 <!--        <p class="view"><a href="/">Home</a></p>-->
           {% if page.parent %}
