@@ -339,7 +339,7 @@ footer {
   .side-header {
     width: 100%;
     float: none;
-    position: static;
+    position: relative;
     margin: 0 auto;
     -webkit-font-smoothing: subpixel-antialiased;
   }
@@ -373,8 +373,8 @@ footer {
   .side-header {
     width: 100%;
     float: none;
-    position: static;
-    margin: 0 auto;
+    position: relative;
+    margin: 3em auto;
     -webkit-font-smoothing: subpixel-antialiased;
   }
 }
