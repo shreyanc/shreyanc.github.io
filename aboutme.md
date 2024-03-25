@@ -7,7 +7,7 @@ logo: assets/img/dp2.jpg
 ---
 <h2>About Me</h2>
 
-I received my Ph.D. from Johannes Kepler University Linz, Austria, advised by [Prof. Gerhard Widmer](https://www.jku.at/en/institute-of-computational-perception/about-us/people/gerhard-widmer/). Before that, I was a Product Design Engineer at Honeywell Technology Solutions, Bangalore, India. I hold a <a href="assets/pdf/mtech_thesis.pdf">Masters</a>+Bachelors (dual degree) in Electrical Engineering from Indian Institute of Technology ([IIT-Kanpur](https://en.wikipedia.org/wiki/IIT_Kanpur)), India.
+I received my Ph.D. from Johannes Kepler University Linz, Austria, advised by [Prof. Gerhard Widmer](https://www.jku.at/en/institute-of-computational-perception/about-us/people/gerhard-widmer/). Before that, I was a Product Design Engineer at Honeywell Technology Solutions, Bangalore, India. I hold a <a href="assets/pdf/mtech_thesis.pdf">Masters</a>+Bachelors (dual degree) in Electrical Engineering from Indian Institute of Technology ([IIT-Kanpur](https://en.wikipedia.org/wiki/IIT_Kanpur)), India. <a href="assets/pdf/Coursera_Certificate_v1-970242443205.pdf"></a>
 
 
 <h3>Research Interests</h3>
