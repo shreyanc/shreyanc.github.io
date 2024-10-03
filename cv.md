@@ -65,6 +65,10 @@ highlights:
   p + ul {
     margin-top: -0.8em;  /* Reduce space between paragraph and list */
   }
+
+  h2 + ul {
+    margin-top: -0.8em;  /* Reduce space between paragraph and list */
+  }
 </style>
 
 ## Experience
@@ -184,6 +188,12 @@ highlights:
 - German (Intermediate: [[B1-level]](assets/pdf/Zeugnis.PDF){:target="_blank"})
 - Hindi (Native)
 - Bengali (Native)
+
+## Hobbies
+
+- Music production/performance [[Soundcloud]](https://soundcloud.com/shreyan-chowdhury){:target="_blank"} [[Youtube]](https://youtu.be/Mqtm-hwRyAc?si=ir1dVTxh3cRa9QAl){:target="_blank"}
+- Photography [[Instagram]](https://www.instagram.com/shreyanchowdhury/){:target="_blank"}
+- Chess [[Lichess]](https://lichess.org/@/shr0311){:target="_blank"}
 
 <!-- [Download PDF Version](assets/pdf/Resume_Shreyan_Chowdhury.pdf) -->
 
