@@ -1,0 +1,9 @@
+<strong>{{ include.company }}</strong>{% if include.location %} | {{ include.location }}{% endif %} <span style="float: right;"><em>{{ include.date_range }}</em></span>
+<br>
+{% for position in include.positions %}
+<strong>{{ position.title }}</strong> <span style="float: right;"><em>{{ position.dates }}</em></span>
+{% for bullet in position.bullets %}
+- {{ bullet }}
+{% endfor %}
+{% unless forloop.last %}<br>{% endunless %}
+{% endfor %}
